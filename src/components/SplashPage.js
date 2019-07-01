@@ -11,13 +11,11 @@ export default function SplahPage(){
 
   return (
     <section className={styles.splash}>
-      <aside>
-        <p>
-          {intro}
-        </p>
-        <ul>
-          {listItems}
-        </ul>
+      <aside className={styles.intro}>
+        <section className={styles.details}>
+          <p>{intro}</p>
+          <ul className={styles.list}>{listItems}</ul>
+        </section>
       </aside>
       <aside>
         images

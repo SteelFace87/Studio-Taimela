@@ -1,4 +1,23 @@
 .splash{
+  display: flex;
   background-color: #8CBBBE;
   height: 100vh;
+}
+
+.intro{
+  ul{
+    list-style: none
+  }
+}
+
+.details{
+  display:flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  height: 100%;
+}
+.list{
+  color:white;
+  padding:0;
 }
