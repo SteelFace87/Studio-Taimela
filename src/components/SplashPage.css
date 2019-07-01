@@ -1,10 +1,11 @@
 .splash{
   display: flex;
   background-color: #8CBBBE;
-  height: 100vh;
+  height: calc(100vh - 11rem);
 }
 
 .intro{
+  width:50vw;
   ul{
     list-style: none
   }
@@ -13,9 +14,15 @@
 .details{
   display:flex;
   flex-direction: column;
- 
+  border: solid 1px red;
   justify-content: center;
+  align-content: center;
   height: 100%;
+  padding-left:12vw;
+  font-size: 2rem;
+  p{
+    color:black;
+  }
 }
 .list{
   color:white;
