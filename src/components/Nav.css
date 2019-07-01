@@ -1,5 +1,31 @@
 .nav{
   border:2px solid #FFFFFF;
-  width:90vw;
-  height: 3rem;
+  height: 4rem;
+  background-color: #8CBBBE;
+  margin: 4.5rem 4rem 3rem 4rem;
+  display: flex;
+  position: sticky;
+  top:4.5rem;
+}
+.navLinks{
+  margin: 0 1rem 0 auto;
+  display: flex;
+  font-size: 1.5rem;
+  li{
+    margin-left:1rem;
+  }
+}
+.linkContainer{
+  margin-left:auto;
+  display: flex;
+  align-items: center;
+}
+.logoContainer{
+ img{
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+  top: -3rem;
+  left: -1.5rem;
+ }
 }

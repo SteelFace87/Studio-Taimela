@@ -1,5 +1,11 @@
 html body{
   margin:0;
   padding:0;
-  color: #FFFFFF
+  color: #FFFFFF;
+  box-sizing: border-box;
+  background-color: #8CBBBE;
+}
+
+ul{
+  list-style:none;
 }
