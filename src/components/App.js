@@ -6,6 +6,7 @@ import Expertise from './Expertise';
 import Background from './Background';
 import Contact from './Contact';
 import SubSection from './SubSection';
+import Footer from './Footer';
 
 export default function App() {
 
@@ -19,6 +20,7 @@ export default function App() {
       <Background/>
       <SubSection title='Contact'/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
