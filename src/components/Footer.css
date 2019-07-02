@@ -1,4 +1,12 @@
 .footer{
   height: 4rem;
   background-color: #ffffff;
+  color: black;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  ul{
+    margin:0;
+  }
 }
