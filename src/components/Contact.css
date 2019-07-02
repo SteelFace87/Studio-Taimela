@@ -1,0 +1,24 @@
+.section{
+  height: calc(100vh - 10rem);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6D92BD;
+}
+.ul{
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+.li{
+  height: 20vw;
+  width: 20vw;
+  border-radius: 100%;
+  background-color:green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:2rem;
+}

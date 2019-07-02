@@ -1,9 +1,10 @@
 .section{
-  height:100vh;
+  height: calc(100vh - 10rem);
   text-align:center;
   background-image: url('../assets/images/city.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .ul{
   display: flex;
@@ -11,6 +12,7 @@
   align-items: center;
   padding: 0;
   height: 100%;
+  margin: 0;
 }
 .li{
   width: 20vw;

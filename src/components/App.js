@@ -4,6 +4,8 @@ import SplashPage from './SplashPage';
 import Nav from './Nav';
 import Expertise from './Expertise';
 import Background from './Background';
+import Contact from './Contact';
+import SubSection from './SubSection';
 
 export default function App() {
 
@@ -11,8 +13,12 @@ export default function App() {
     <>
       <Nav />
       <SplashPage />
-      <Expertise/>
+      <SubSection title='Expertise'/>
+      <Expertise />
+      <SubSection title='Background'/>
       <Background/>
+      <SubSection title='Contact'/>
+      <Contact/>
     </>
   );
 }

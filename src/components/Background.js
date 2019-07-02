@@ -9,7 +9,6 @@ export default function Background(){
   });
   return (
     <section className={styles.section}>
-      <h1>Background</h1>
       <ul className = {styles.ul}>
         {backgroundItems}
       </ul>

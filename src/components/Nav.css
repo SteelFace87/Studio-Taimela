@@ -2,10 +2,10 @@
   border:2px solid #FFFFFF;
   height: 4rem;
   background-color: #8CBBBE;
-  margin: 4.5rem 4rem 3rem 4rem;
+  margin: 2rem 4rem 3rem 4rem;
   display: flex;
   position: sticky;
-  top:4.5rem;
+  top:2rem;
   z-index: 99;
 }
 .navLinks{
@@ -23,10 +23,10 @@
 }
 .logoContainer{
  img{
-  height: 10rem;
-  width: 10rem;
+  height: 8rem;
+  width: 8rem;
   position: relative;
-  top: -3rem;
-  left: -1.5rem;
+  top: -2rem;
+  left: -1.75rem;
  }
 }
