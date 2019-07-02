@@ -18,7 +18,12 @@
   border-radius: 100%;
   background-color:green;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin:2rem;
+  p{
+    display:flex;
+    flex-direction: column;
+  }
 }

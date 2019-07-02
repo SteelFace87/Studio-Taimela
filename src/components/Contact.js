@@ -1,29 +1,55 @@
 import React from 'react';
 import styles from './Contact.css';
+import { about } from '../text/contact';
 
-export default function Contact(){
+import {
+  FaEnvelopeOpenText,
+  FaMapMarked,
+  FaPhone
+} from 'react-icons/fa';
+
+export default function Contact() {
 
   const contact = [
     {
+      icon: <FaEnvelopeOpenText size='2rem' />,
       text: 'Virpi@studiotaimela.com'
     },
     {
-      text: 'Grosswiesenstrasse 145 \n 8051 Zurich \n Switzerland'
+      icon: <FaMapMarked size='2rem' />,
+      text:
+        <>
+          <span>Grosswiesenstrasse 145</span>
+          <span>8051 Zurich</span>
+          <span>Switzerland</span>
+        </>
     },
     {
-      text: '+41 77 979 9734 \n +358 40 410 6428'
+      icon: <FaPhone size='2rem' />,
+      text:
+        <>
+          <span>+41 77 979 9734</span>
+          <span> +358 40 410 6428</span>
+        </>
     }
   ];
 
-  const contactList = contact.map((contact, i)=>{
-    return <li className={styles.li} key={i}><p>{contact.text}</p></li>;
+  const contactList = contact.map((contact, i) => {
+    return (
+      <li className={styles.li} key={i}>
+        <p>{contact.icon}</p>
+        <p>{contact.text}</p>
+      </li>
+    );
   });
   return (
     <section className={styles.section}>
       <ul className={styles.ul}>
         {contactList}
       </ul>
-
+      <p>
+        {about}
+      </p>
     </section>
   );
 }
