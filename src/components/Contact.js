@@ -44,12 +44,15 @@ export default function Contact() {
   });
   return (
     <section className={styles.section}>
-      <ul className={styles.ul}>
-        {contactList}
-      </ul>
-      <p>
-        {about}
-      </p>
+      <section className={styles.content}>
+        <h1>Contact</h1>
+        <ul className={styles.ul}>
+          {contactList}
+        </ul>
+        <p>
+          {about}
+        </p>
+      </section>
     </section>
   );
 }

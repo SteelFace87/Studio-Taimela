@@ -9,9 +9,15 @@ export default function Background(){
   });
   return (
     <section className={styles.section}>
-      <ul className = {styles.ul}>
-        {backgroundItems}
-      </ul>
+      <section className={styles.content}>
+        <section className={styles.content}>
+          <h1>Background</h1>
+          <ul className = {styles.ul}>
+            {backgroundItems}
+          </ul>
+        </section>
+
+      </section>
 
     </section>
   );

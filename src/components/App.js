@@ -14,11 +14,11 @@ export default function App() {
     <>
       <Nav />
       <SplashPage />
-      <SubSection title='Expertise'/>
+      {/* <SubSection title='Expertise'/> */}
       <Expertise />
-      <SubSection title='Background'/>
+      {/* <SubSection title='Background'/> */}
       <Background/>
-      <SubSection title='Contact'/>
+      {/* <SubSection title='Contact'/> */}
       <Contact/>
       <Footer/>
     </>

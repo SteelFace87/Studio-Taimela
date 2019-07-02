@@ -52,9 +52,12 @@ export default function Expertise(){
   return (
     <section className={styles.container}>
   
-      <ul className={styles.ul}>
-        {expertiseList}
-      </ul>
+      <section className={styles.content}>
+        <h1>Expertise</h1>
+        <ul className={styles.ul}>
+          {expertiseList}
+        </ul>
+      </section>
     </section>
   );
 }
