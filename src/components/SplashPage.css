@@ -1,7 +1,7 @@
 .splash{
   display: flex;
   background-color: #8CBBBE;
-  height: calc(100vh - 11rem);
+  height: calc(100vh - 9rem);
 }
 
 .intro{
@@ -14,7 +14,6 @@
 .details{
   display:flex;
   flex-direction: column;
-  border: solid 1px red;
   justify-content: center;
   align-content: center;
   height: 100%;
@@ -27,4 +26,15 @@
 .list{
   color:white;
   padding:0;
+}
+.imgContainer{
+  display:flex;
+  justify-content: flex-end;
+  width: 50vw;
+
+ 
+
+}
+.img{
+
 }

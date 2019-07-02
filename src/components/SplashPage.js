@@ -3,6 +3,7 @@ import styles from './SplashPage.css';
 
 import { intro, bullets } from '../text/splashPage';
 import { FaCheck } from 'react-icons/fa';
+import profile from '../assets/images/profile.png';
 
 
 
@@ -20,8 +21,8 @@ export default function SplahPage(){
         </section>
       </aside>
 
-      <aside>
-        images
+      <aside className={styles.imgContainer}>
+        <img className={styles.img} src={profile}/>
       </aside>
 
     </section>
