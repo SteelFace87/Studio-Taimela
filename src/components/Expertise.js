@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Expertise.css';
 import { 
   FaRandom,
   FaGlobeAmericas,
@@ -8,28 +9,29 @@ import {
 } from 'react-icons/fa';
 
 
+
 export default function Expertise(){
 
   const expertise = [
     {
       text:'Ability to quickly grasp complex solutions',
-      icon: <FaRandom/>
+      icon: <FaRandom size='2rem'/>
     },
     {
       text:'Extensive experience in international business',
-      icon: <FaGlobeAmericas/>
+      icon: <FaGlobeAmericas size='2rem'/>
     },
     {
       text:'Ability to translate tech talk into client\'s laungage',
-      icon: <FaBookReader/>
+      icon: <FaBookReader size='2rem'/>
     },
     {
       text:'Native in English and finnish',
-      icon: <FaRegComments/>
+      icon: <FaRegComments size='2rem'/>
     },
     {
       text:'Copywrite and layout design',
-      icon: <FaRegFileAlt/>
+      icon: <FaRegFileAlt size='2rem'/>
     }
   ]
   ;
@@ -37,17 +39,19 @@ export default function Expertise(){
 
   const expertiseList = expertise.map((expertise, i)=>{
     return <li key={i}>
-      <section>
+      <section className={styles.li}>
         {expertise.icon}
-        {expertise.text}
+        <p>
+          {expertise.text}
+        </p>
       </section>
     </li>;
   });
 
   return (
-    <section>
+    <section className={styles.container}>
       <h1>Expertise</h1>
-      <ul>
+      <ul className={styles.ul}>
         {expertiseList}
       </ul>
     </section>
