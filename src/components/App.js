@@ -8,10 +8,16 @@ import Contact from './Contact';
 import Footer from './Footer';
 import SubSection from './SubSection';
 
+import {
+  BrowserRouter as Router
+} from 'react-router-dom';
+
+
 export default function App() {
 
   return (
-    <>
+
+    <Router>
       <Nav />
       <SplashPage />
       <SubSection/>
@@ -21,7 +27,8 @@ export default function App() {
       <SubSection/>
       <Contact/>
       <Footer/>
-    </>
+    </Router>
+    
   );
   
 }

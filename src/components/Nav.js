@@ -3,9 +3,11 @@ import { links } from '../text/nav';
 import styles from './Nav.css';
 import logo from '../assets/images/logo.png';
 
+import { HashLink as Link } from 'react-router-hash-link';
+
 export default function Nav(){
   const navItems = links.map((link, i)=>{
-    return <li key={i}><a>{link.title}</a></li>;
+    return <li key={i}><Link to={`#${link.title}`}>{link.title}</Link></li>;
   });
   return (
   

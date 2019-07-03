@@ -8,6 +8,11 @@
   justify-content: center;
   ul{
     margin:0;
-    
+  }
+  li{
+    margin-bottom:.5rem;
+  }
+  li:last-child{
+    font-size: .65rem;
   }
 }

@@ -43,7 +43,7 @@ export default function Contact() {
     );
   });
   return (
-    <section className={styles.section}>
+    <section id='Contact' className={styles.section}>
       <section className={styles.content}>
         <h1>Contact</h1>
         <ul className={styles.ul}>

@@ -50,7 +50,7 @@ export default function Expertise(){
   });
 
   return (
-    <section className={styles.container}>
+    <section id='Expertise' className={styles.container}>
   
       <section className={styles.content}>
         <h1>Expertise</h1>

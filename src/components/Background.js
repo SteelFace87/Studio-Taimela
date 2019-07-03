@@ -8,7 +8,7 @@ export default function Background(){
     return <li className={styles.li} key={i}><p>{background}</p></li>;
   });
   return (
-    <section className={styles.section}>
+    <section id='Background' className={styles.section}>
       <section className={styles.content}>
         <section className={styles.content}>
           <h1>Background</h1>
