@@ -1,25 +1,32 @@
 .nav{
   border:2px solid #FFFFFF;
   height: 4rem;
-  
   margin: 2rem 4rem 3rem 4rem;
   display: flex;
   position: sticky;
   top:2rem;
-  z-index: 99;
+  box-sizing: border-box;
+  z-index:99;
+  backdrop-filter: blur(5px);
 }
+
 .navLinks{
   margin: 0 1rem 0 auto;
   display: flex;
   font-size: 1.5rem;
   li{
-    margin-left:1rem;
+    margin-left:2rem;
+  }
+  li:hover{
+    color:silver;
   }
 }
+
 .linkContainer{
   margin-left:auto;
   display: flex;
   align-items: center;
+  z-index: 99;
 }
 .logoContainer{
  img{
@@ -28,5 +35,16 @@
   position: relative;
   top: -2rem;
   left: -1.75rem;
+  z-index: 99;
  }
+}
+.blur{
+ position: relative;
+
+ height: calc(4rem - 2px);
+ width:100%;
+ opacity:.8;
+ background-color: white;
+ filter:blur(1px);
+ overflow:hidden;
 }

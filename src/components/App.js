@@ -6,6 +6,7 @@ import Expertise from './Expertise';
 import Background from './Background';
 import Contact from './Contact';
 import Footer from './Footer';
+import SubSection from './SubSection';
 
 export default function App() {
 
@@ -13,8 +14,11 @@ export default function App() {
     <>
       <Nav />
       <SplashPage />
+      <SubSection/>
       <Expertise />
+      <SubSection/>
       <Background/>
+      <SubSection/>
       <Contact/>
       <Footer/>
     </>

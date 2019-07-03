@@ -8,6 +8,7 @@ export default function Nav(){
     return <li key={i}><a>{link.title}</a></li>;
   });
   return (
+  
     <nav className={styles.nav}>
       <section className={styles.logoContainer}> 
         <img src={logo}/>
@@ -17,6 +18,10 @@ export default function Nav(){
           {navItems}
         </ul>
       </section>
+      <section>
+      </section>
     </nav>
+    
+
   );
 }
