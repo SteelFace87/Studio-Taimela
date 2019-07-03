@@ -11,17 +11,34 @@ export default function Nav(){
   });
   return (
   
-    <nav className={styles.nav}>
-      <section className={styles.logoContainer}> 
-        <img src={logo}/>
+    // <nav className={styles.nav}>
+    //   <section className={styles.logoContainer}> 
+    //     <img src={logo}/>
+    //   </section>
+    //   <section className={styles.linkContainer}>
+    //     <ul className={styles.navLinks}>
+    //       {navItems}
+    //     </ul>
+    //   </section>
+    //   <section>
+    //   </section>
+    // </nav>
+    <nav className={styles.trial2}>
+      <section className={styles.trial2blur}>
       </section>
-      <section className={styles.linkContainer}>
-        <ul className={styles.navLinks}>
-          {navItems}
-        </ul>
+      
+      <section className={styles.trial2main}>
+        <section className={styles.logoContainer}> 
+          <img src={logo}/>
+        </section>
+        <section className={styles.linkContainer}>
+          <ul className={styles.navLinks}>
+            {navItems}
+          </ul>
+        </section>
+
       </section>
-      <section>
-      </section>
+ 
     </nav>
     
 

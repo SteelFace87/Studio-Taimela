@@ -10,9 +10,10 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin:4rem;
+  margin:2rem;
   p{
     color:black;
+    font-size: 1.25rem;
   }
 }
 .container{
@@ -29,7 +30,9 @@
 .content{
  
   h1{
-    font-size:2.5rem;
+    letter-spacing: .7rem;
+    font-weight: 100;
+    font-size:3rem;
     color:black;
   }
 }
