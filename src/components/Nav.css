@@ -17,9 +17,13 @@
   li{
     margin-left:2rem;
     cursor: pointer;
-  }
-  li:hover{
-    color:silver;
+    a{
+      text-decoration: none;
+      color:white;
+    }
+    a:hover{
+      color:silver;
+    }
   }
 }
 
