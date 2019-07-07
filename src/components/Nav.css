@@ -8,7 +8,6 @@
   box-sizing: border-box;
   z-index:99;
   backdrop-filter: blur(5px);
-
 }
 
 .navLinks{
@@ -20,7 +19,7 @@
     cursor: pointer;
     a{
       text-decoration: none;
-      color:black;
+      color:white;
     }
     a:hover{
       color:silver;
@@ -56,22 +55,19 @@
 }
 
 .trial2{
-  height: 4rem;
-  width:90%;
-  margin: 2rem 4rem 3rem 4rem;
-  
-  position: sticky;
-  top:2rem;
-  box-sizing: border-box;
-  z-index:99;
-  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100vw;
+  height: 5.625rem;
+  z-index: 1;
 }
 .trial2blur{
-  background-color:white;
+  border:2px solid white;
   width:100%;
   height:100%;
-  opacity:.90;
-  border:2px solid black;
+  opacity:.70;
+ 
 }
 .trial2main{
 width:100%;

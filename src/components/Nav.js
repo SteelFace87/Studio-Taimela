@@ -1,7 +1,8 @@
 import React from 'react';
 import { links } from '../text/nav';
 import styles from './Nav.css';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo.png';  
+
 
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -11,35 +12,37 @@ export default function Nav(){
   });
   return (
   
-    // <nav className={styles.nav}>
-    //   <section className={styles.logoContainer}> 
-    //     <img src={logo}/>
-    //   </section>
-    //   <section className={styles.linkContainer}>
-    //     <ul className={styles.navLinks}>
-    //       {navItems}
-    //     </ul>
-    //   </section>
-    //   <section>
-    //   </section>
-    // </nav>
-    <nav className={styles.trial2}>
-      <section className={styles.trial2blur}>
+    <nav className={styles.nav}>
+      <section className={styles.logoContainer}> 
+        <img src={logo}/>
       </section>
-      
-      <section className={styles.trial2main}>
-        <section className={styles.logoContainer}> 
-          <img src={logo}/>
-        </section>
-        <section className={styles.linkContainer}>
-          <ul className={styles.navLinks}>
-            {navItems}
-          </ul>
-        </section>
-
+      <section className={styles.linkContainer}>
+        <ul className={styles.navLinks}>
+          {navItems}
+        </ul>
+      </section>  
+      <section>
       </section>
- 
     </nav>
+ 
+  // <nav className={styles.trial2}>
+  //   <section className={styles.trial2blur}>
+  //   </section>
+      
+  //   <section className={styles.trial2main}>
+  //     <section className={styles.logoContainer}> 
+  //       <img src={logo}/>
+  //     </section>
+  //     <section className={styles.linkContainer}>
+  //       <ul className={styles.navLinks}>
+  //         {navItems}
+  //       </ul>
+  //     </section>
+
+  //   </section>
+  // </nav>
+  
+
     
 
   );

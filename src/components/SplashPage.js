@@ -9,21 +9,21 @@ import profile from '../assets/images/profile.png';
 
 export default function SplahPage(){
 
-  const listItems = bullets.map((bullet, i)=><li key={i}><FaCheck/> {bullet}</li>); 
+  const listItems = bullets.map((bullet, i)=><li key={i}>{bullet}</li>); 
 
   return (
     <section className={styles.splash}>
 
       <aside className={styles.intro}>
         <section className={styles.details}>
-          <p>{intro}</p>
           <ul className={styles.list}>{listItems}</ul>
+          <p>{intro}</p>
         </section>
       </aside>
 
-      <aside className={styles.imgContainer}>
-        <img className={styles.img} src={profile}/>
-      </aside>
+  
+      <img className={styles.img} src={profile}/>
+   
 
     </section>
   );

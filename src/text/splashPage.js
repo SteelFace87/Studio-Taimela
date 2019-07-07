@@ -1,3 +1,5 @@
 
-export const intro = 'Strategy meets creativity to put your best foot forward';
-export const bullets = ['Business development', 'Marketing', 'Communications'];
+export const intro = `I help tech companies with
+complex solutions to bring
+out their best.`;
+export const bullets = ['STRATEGIC MARKETER', 'CREATIVE THINKER', 'TECH ENTHUSIAST'];
