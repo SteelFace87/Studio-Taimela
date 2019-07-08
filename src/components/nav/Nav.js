@@ -11,7 +11,6 @@ export default function Nav(){
   const leftNavLinks = <ul className={styles.hover}>{createLinks(leftLinks)}</ul>;
   const rightNavLinks = <ul>{createLinks(rightLinks)}</ul>;
   return (
-  
     <nav className={styles.nav}>
       <section className={styles.leftLinkContainer}>
         {leftNavLinks}
@@ -22,7 +21,6 @@ export default function Nav(){
       <section className={styles.rightLinkContainer}>
         {rightNavLinks}
       </section>
-    </nav>
- 
+    </nav> 
   );
 }

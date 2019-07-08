@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './SplashPage.css';
 
-import { intro, bullets } from '../text/splashPage';
+import { intro, bullets } from '../../text/splashPage';
 
 
 export default function SplahPage(){
@@ -9,7 +9,7 @@ export default function SplahPage(){
   const listItems = bullets.map((bullet, i)=><li key={i}>{bullet}</li>); 
 
   return (
-    <section className={styles.splash}>
+    <section className={[styles.section, 'page'].join(' ')}>
 
       <aside className={styles.intro}>
         <section className={styles.details}>

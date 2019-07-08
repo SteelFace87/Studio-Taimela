@@ -1,0 +1,21 @@
+.nav{
+  background-color: rgba(0,0,0,.5);
+  display:flex;
+  position:sticky;
+  top:0;
+  @media (min-width: 720px){
+    display: none;
+  }
+}
+.navBar{
+  margin: 0 4rem;
+  width:100%;
+  display:flex;
+  align-items:center;
+  img{
+    height: 5rem;
+    width: 5rem;
+    margin-right:auto;
+   }
+
+}

@@ -1,24 +1,38 @@
-.splash{
+.section{
+  @media (min-width: 720px){
+    flex-direction:row;
+  }
   display: flex;
+  flex-direction: column;
   background-color: #8CBBBE;
-  height: calc(100vh - 9rem);
+  min-height: calc(100vh - 9rem);
+}
+.section:last-child{
+  align-self: flex-end
 }
 
 .intro{
-  width:50vw;
+  @media (min-width: 720px){
+    width:50vw;
+  }
   ul{
-    list-style: none
+    list-style: none;
   }
 }
 
 .details{
+  font-size:1.25rem;
+  text-align: center;
+  @media (min-width: 720px){
+    font-size: 2rem;
+    padding-left:12vw;
+    text-align: left;
+  }
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   height: 100%;
-  padding-left:12vw;
-  font-size: 2rem;
   p{
     color:black;
     font-style:italic;
@@ -31,11 +45,11 @@
 .imgContainer{
   display:flex;
   justify-content: flex-end;
-  background-image: url('../assets/images/profile.png');
+  background-image: url('../../assets/images/profile.png');
   width:50vw;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 100%;
+  min-height: 30vh;
   background-size:contain;
 
  
