@@ -8,7 +8,7 @@ import createLinks from './createLinks';
 
 
 export default function Nav(){
-  const leftNavLinks = <ul>{createLinks(leftLinks)}</ul>;
+  const leftNavLinks = <ul className={styles.hover}>{createLinks(leftLinks)}</ul>;
   const rightNavLinks = <ul>{createLinks(rightLinks)}</ul>;
   return (
   
