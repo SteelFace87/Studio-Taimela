@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Expertise.css';
 
-import { 
+import {
   FaRandom,
   FaGlobeAmericas,
   FaBookReader,
@@ -11,34 +11,34 @@ import {
 
 
 
-export default function Expertise(){
+export default function Expertise() {
 
   const expertise = [
     {
-      text:'Ability to quickly grasp complex solutions',
-      icon: <FaRandom size='3rem'/>
+      text: 'Ability to quickly grasp complex solutions',
+      icon: <FaRandom size='3rem' />
     },
     {
-      text:'Extensive experience in international business',
-      icon: <FaGlobeAmericas size='3rem'/>
+      text: 'Extensive experience in international business',
+      icon: <FaGlobeAmericas size='3rem' />
     },
     {
-      text:'Ability to translate tech talk into client\'s laungage',
-      icon: <FaBookReader size='3rem'/>
+      text: 'Ability to translate tech talk into client\'s laungage',
+      icon: <FaBookReader size='3rem' />
     },
     {
-      text:'Native in English and finnish',
-      icon: <FaRegComments size='3rem'/>
+      text: 'Native in English and finnish',
+      icon: <FaRegComments size='3rem' />
     },
     {
-      text:'Copywrite and layout design',
-      icon: <FaRegFileAlt size='3rem'/>
+      text: 'Copywrite and layout design',
+      icon: <FaRegFileAlt size='3rem' />
     }
   ]
-  ;
-  
+    ;
 
-  const expertiseList = expertise.map((expertise, i)=>{
+
+  const expertiseList = expertise.map((expertise, i) => {
     return <li key={i}>
       <section className={styles.li}>
         {expertise.icon}
@@ -51,9 +51,8 @@ export default function Expertise(){
 
   return (
     <section id='Expertise' className={styles.container}>
-  
+      <h1 className={styles.h1}>EXPERTISE</h1>
       <section className={styles.content}>
-        <h1>Expertise</h1>
         <ul className={styles.ul}>
           {expertiseList}
         </ul>

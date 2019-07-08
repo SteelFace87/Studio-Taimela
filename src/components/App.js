@@ -7,12 +7,13 @@ import Background from './Background';
 import Contact from './Contact';
 import Footer from './Footer';
 import SubSection from './SubSection';
+import Services from './services/Services';
 
 
 import {
   BrowserRouter as Router
 } from 'react-router-dom';
-import { FaRegBell } from 'react-icons/fa';
+
 
 
 export default function App() {
@@ -30,6 +31,8 @@ export default function App() {
       <SplashPage />
       <SubSection/>
       <Expertise />
+      <SubSection/>
+      <Services/>
       <SubSection/>
       <Background/>
       <SubSection/>

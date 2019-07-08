@@ -17,9 +17,9 @@
   }
 }
 .container{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+
+ display:flex;
+ flex-direction: column;
   text-align: center;
   height: 100vh;
   background-size: cover;
@@ -28,12 +28,19 @@
   background-attachment: fixed;
 }
 .content{
- 
-  h1{
+ display:flex;
+ justify-content: center;
+ flex-grow: 1;
+ align-items: center;
+
+}
+
+.h1{
+    margin:0;
+    padding-top:8rem;
     letter-spacing: .7rem;
     font-weight: 100;
     font-size:3rem;
     color:rgb(249, 206, 79);
-    margin-top:0;
-  }
+  
 }
