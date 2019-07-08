@@ -22,7 +22,7 @@ export default function SplahPage(){
       </aside>
 
   
-      <img className={styles.img} src={profile}/>
+      <section className={styles.imgContainer}/>
    
 
     </section>

@@ -1,6 +1,10 @@
-export const links = [
+export const leftLinks = [
   { title: 'Expertise' },
-  { title: 'Experience' },
+  { title: 'Services' },
+]
+;
+
+export const rightLinks = [
   { title: 'Background' },
   { title: 'Contact' }
 ]
