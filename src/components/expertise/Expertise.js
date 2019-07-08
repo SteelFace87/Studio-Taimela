@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Expertise.css';
+import Title from '../title/Title';
 
 import {
   FaRandom,
@@ -51,7 +52,7 @@ export default function Expertise() {
 
   return (
     <section id='Expertise' className={styles.container}>
-      <h1 className={styles.h1}>EXPERTISE</h1>
+      <Title title='Expertise'/>
       <section className={styles.content}>
         <ul className={styles.ul}>
           {expertiseList}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { services, aboutMe } from '../../text/services';
 import styles from './Services.css';
+import Title from '../title/Title';
 
 
 export default function Services() {
@@ -15,7 +16,7 @@ export default function Services() {
   });
   return (
     <main id='Services' className={styles.main}>
-      <h1>SERVICES</h1>
+      <Title title='services'/>
       <ul className={styles.servicesList}>
         {servicesList}
       </ul>

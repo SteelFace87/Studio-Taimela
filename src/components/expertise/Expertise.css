@@ -23,7 +23,7 @@
   text-align: center;
   height: 100vh;
   background-size: cover;
-  background-image: url('../assets/images/mountain.png');
+  background-image: url('../../assets/images/mountain.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

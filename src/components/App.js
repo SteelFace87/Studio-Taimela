@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import SplashPage from './SplashPage';
 import Nav from './nav/Nav';
-import Expertise from './Expertise';
+import Expertise from './expertise/Expertise';
 import Background from './Background';
 import Contact from './Contact';
 import Footer from './Footer';
