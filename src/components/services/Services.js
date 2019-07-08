@@ -16,11 +16,13 @@ export default function Services() {
   });
   return (
     <main id='Services' className={styles.main}>
-      <Title title='services'/>
-      <ul className={styles.servicesList}>
-        {servicesList}
-      </ul>
-      <p className={styles.aboutMe}>{aboutMe}</p>
+      <Title title='services' />
+      <section className='content'>
+        <ul className={styles.servicesList}>
+          {servicesList}
+        </ul>
+        <p className={styles.aboutMe}>{aboutMe}</p>
+      </section>
     </main>
   );
 

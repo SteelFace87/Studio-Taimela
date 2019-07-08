@@ -27,12 +27,3 @@
     flex-direction: column;
   }
 }
-.content{
-  
-  h1{
-    letter-spacing: .7rem;
-    font-weight: 100;
-    font-size:3rem;
-    color:black;
-  }
-}

@@ -53,7 +53,7 @@ export default function Expertise() {
   return (
     <section id='Expertise' className={styles.container}>
       <Title title='Expertise'/>
-      <section className={styles.content}>
+      <section className='content'>
         <ul className={styles.ul}>
           {expertiseList}
         </ul>

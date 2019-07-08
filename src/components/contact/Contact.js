@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Contact.css';
-import { about } from '../text/contact';
+import { about } from '../../text/contact';
+import Title from '../title/Title';
 
 import {
   FaEnvelopeOpenText,
@@ -44,8 +45,8 @@ export default function Contact() {
   });
   return (
     <section id='Contact' className={styles.section}>
-      <section className={styles.content}>
-        <h1>Contact</h1>
+      <Title title='contact' />
+      <section className='content'>
         <ul className={styles.ul}>
           {contactList}
         </ul>
@@ -53,6 +54,7 @@ export default function Contact() {
           {about}
         </p>
       </section>
+
     </section>
   );
 }
