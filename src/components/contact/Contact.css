@@ -1,5 +1,5 @@
 .section{
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -26,4 +26,11 @@
     display:flex;
     flex-direction: column;
   }
+}
+.li p:nth-child(2){
+  color:black;
+}
+.black{
+  color:black;
+  margin: 0 3rem;
 }

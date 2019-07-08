@@ -1,18 +1,17 @@
 .footer{
-  height: 6rem;
+  padding: 2rem;
   background-color: #ffffff;
   color: black;
   text-align: center;
   display:flex;
   align-items: center;
   justify-content: center;
+ 
   ul{
     margin:0;
   }
-  li{
-    margin-bottom:.6rem;
-  }
   li:last-child{
-    font-size: .65rem;
+    margin-top:1rem;
   }
+ 
 }

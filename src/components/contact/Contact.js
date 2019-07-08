@@ -44,13 +44,13 @@ export default function Contact() {
     );
   });
   return (
-    <section id='Contact' className={styles.section}>
-      <Title title='contact' />
+    <section id='Contact' className={[styles.section, 'page'].join(' ')}>
       <section className='content'>
+        <Title title=' get in contact' />
         <ul className={styles.ul}>
           {contactList}
         </ul>
-        <p>
+        <p className={styles.black}>
           {about}
         </p>
       </section>

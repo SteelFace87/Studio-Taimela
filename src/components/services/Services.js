@@ -15,9 +15,9 @@ export default function Services() {
     </li>;
   });
   return (
-    <main id='Services' className={styles.main}>
-      <Title title='services' />
+    <main id='Services' className={[styles.section, 'page'].join(' ')}>
       <section className='content'>
+        <Title title='services' />
         <ul className={styles.servicesList}>
           {servicesList}
         </ul>

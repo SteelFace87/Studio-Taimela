@@ -5,7 +5,7 @@ import Nav from './nav/Nav';
 import Expertise from './expertise/Expertise';
 import Background from './background/Background';
 import Contact from './contact/Contact';
-import Footer from './Footer';
+import Footer from './footer/Footer';
 import SubSection from './SubSection';
 import Services from './services/Services';
 

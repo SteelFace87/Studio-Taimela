@@ -16,12 +16,12 @@
     font-size: 1.25rem;
   }
 }
-.container{
+.section{
 
  display:flex;
  flex-direction: column;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-image: url('../../assets/images/mountain.png');
   background-repeat: no-repeat;

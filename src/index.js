@@ -5,7 +5,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google:{
-    families:['Roboto']
+    families:['Roboto:300,700']
   }
 });
 

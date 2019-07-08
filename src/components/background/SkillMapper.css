@@ -1,0 +1,10 @@
+.symbol{
+  color:gold;
+}
+.skill{
+  display:flex;
+  p{
+    margin:0;
+    padding-right:.4rem;
+  }
+}

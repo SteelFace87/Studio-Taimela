@@ -1,20 +1,27 @@
 import React from 'react';
 import styles from './Background.css';
-import { background } from '../../text/background';
+import { education, languages, certificates } from '../../text/background';
 import Title from '../title/Title';
+import SkillMapper from './SkillMapper';
 
 export default function Background() {
-  const backgroundItems = background.map((background, i) => {
 
-    return <li className={styles.li} key={i}><p>{background}</p></li>;
-  });
   return (
-    <section id='Background' className={styles.section}>
-      <Title title='background' />
+    <section id='Background' className={[styles.section, 'page'].join(' ')}>
       <section className='content'>
-        <ul className={styles.ul}>
-          {backgroundItems}
-        </ul>
+        <section className={styles.background}>
+          <Title title='background' />
+          <section>
+            <ul className={styles.ulEducation}>
+              <li>{education.degree}</li>
+              <li>{education.school}</li>
+            </ul>
+          </section>
+          <section className={styles.skills}>
+            <SkillMapper title={languages.title} skills={languages.skills}/>
+            <SkillMapper title={certificates.title} skills={certificates.skills}/>
+          </section>
+        </section>
       </section>
 
 
