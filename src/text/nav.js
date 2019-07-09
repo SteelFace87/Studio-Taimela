@@ -9,3 +9,10 @@ export const rightLinks = [
   { title: 'Contact' }
 ]
 ;
+export const allLinks = [
+  { title: 'Expertise' },
+  { title: 'Services' },
+  { title: 'Background' },
+  { title: 'Contact' }
+]
+;

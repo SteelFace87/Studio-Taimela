@@ -2,20 +2,29 @@ import React, { PureComponent } from 'react';
 import logo from '../../assets/images/logo.png';
 import { FaBars } from 'react-icons/fa';  
 import styles from './MobileNav.css';
+import createLinks from './createLinks';
+import { allLinks } from '../../text/nav';
 
 export default class MobileNav extends PureComponent{
   state={
     clicked:false
   }
+  onClick = ()=>{
+    this.setState((state)=>{
+      return { clicked:!state.clicked };
+    });
+  }
   render(){
-    const mobileList = <li>hi</li>;
+    const mobileList = createLinks(allLinks);
     return ( 
       <nav className={styles.nav}>
         <section className={styles.navBar}>
           <img src={logo}></img>
-          <FaBars size='2rem'/>
+          <FaBars onClick={this.onClick} size='2rem'/>
         </section>
-        {this.state.clicked === true ? <ul>{mobileList}</ul> : null}
+        <section className={styles.navMenu}>
+          {this.state.clicked === true ? <ul>{mobileList}</ul> : null}
+        </section>
       </nav>
     );
   }
