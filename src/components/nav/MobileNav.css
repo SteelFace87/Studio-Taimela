@@ -24,10 +24,10 @@
     height: 5rem;
     width: 5rem;
     margin-right:auto;
-    margin-left:2rem;
+    padding-left:2rem;
    }
   svg{
-    margin-right:2rem;
+    padding-right:2rem;
   }
 }
 .navMenu{
