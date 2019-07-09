@@ -17,7 +17,7 @@ export default function SkillMapper({ title, skills }){
     </li>;
   });
   return (
-    <section>
+    <section className={styles.skillContainer}>
       <h2>{title}</h2>
       <ul>
         {skillList}
