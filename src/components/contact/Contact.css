@@ -9,12 +9,20 @@
 }
 .ul{
   display: flex;
+  flex-direction: column;
+  @media (min-width: 720px){
+    flex-direction: row;
+  }
   padding: 0;
   justify-content: center;
 }
 .li{
+  height: 60vw;
+  width:60vw;
+  @media (min-width: 720px){
   height: 20vw;
-  width: 20vw;
+  width:20vw;
+  }
   border-radius: 100%;
   background-color:#88A5CA;
   display: flex;
