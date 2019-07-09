@@ -27,7 +27,7 @@ export default function Background() {
           <p>
             Find my detailed work experience on LinkedIn
           </p>
-          <a rel="noopener noreferrer" target = '_blank' href='https://www.linkedin.com/in/virpinieminen/'>
+          <a alt="Linked In" aria-label= "Linked In" rel= "noopener noreferrer" target = '_blank' href='https://www.linkedin.com/in/virpinieminen/'>
             <FaLinkedin size={42} />
           </a>
         </section>

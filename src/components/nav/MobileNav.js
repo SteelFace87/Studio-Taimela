@@ -21,7 +21,7 @@ export default class MobileNav extends PureComponent {
       <>
         <nav className={styles.nav}>
           <section className={styles.navBar}>
-            <img src={logo}></img>
+            <img alt='logo' src={logo}></img>
             <FaBars onClick={this.onClick} size={32} />
           </section>
         </nav>
