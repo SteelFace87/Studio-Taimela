@@ -6,8 +6,8 @@
     margin:0;
   }
   display:flex;
-  padding: 0 5rem;
-  margin-bottom:10rem;
+  margin-bottom:6rem;
+  padding:0;
 
 }
 .li{
@@ -26,13 +26,16 @@
  display:flex;
  flex-direction: column;
   text-align: center;
+  width: 100%;
   min-height: 100vh;
-  background-size: cover;
   background-image: url('../../assets/images/mountain.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: 15rem;
+  background-size:contain;
+  background-position: bottom;
+  
   @media (min-width: 720px){
+    background-size: cover;
    background-position: 0;
   }
 }
