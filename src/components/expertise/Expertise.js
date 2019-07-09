@@ -17,23 +17,23 @@ export default function Expertise() {
   const expertise = [
     {
       text: 'Ability to quickly grasp complex solutions',
-      icon: <FaRandom size='3rem' />
+      icon: <FaRandom size={48} />
     },
     {
       text: 'Extensive experience in international business',
-      icon: <FaGlobeAmericas size='3rem' />
+      icon: <FaGlobeAmericas size={48} />
     },
     {
       text: 'Ability to translate tech talk into client\'s laungage',
-      icon: <FaBookReader size='3rem' />
+      icon: <FaBookReader size={48} />
     },
     {
       text: 'Native in English and finnish',
-      icon: <FaRegComments size='3rem' />
+      icon: <FaRegComments size={48} />
     },
     {
       text: 'Copywrite and layout design',
-      icon: <FaRegFileAlt size='3rem' />
+      icon: <FaRegFileAlt size={48} />
     }
   ]
     ;

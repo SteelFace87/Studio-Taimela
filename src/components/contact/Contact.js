@@ -13,11 +13,11 @@ export default function Contact() {
 
   const contact = [
     {
-      icon: <FaEnvelopeOpenText size='2rem' />,
+      icon: <FaEnvelopeOpenText size={32} />,
       text: 'Virpi@studiotaimela.com'
     },
     {
-      icon: <FaMapMarked size='2rem' />,
+      icon: <FaMapMarked size={32} />,
       text:
         <>
           <span>Grosswiesenstrasse 145</span>
@@ -26,7 +26,7 @@ export default function Contact() {
         </>
     },
     {
-      icon: <FaPhone size='2rem' />,
+      icon: <FaPhone size={32} />,
       text:
         <>
           <span>+41 77 979 9734</span>

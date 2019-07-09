@@ -4,6 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import styles from './MobileNav.css';
 import createLinks from './createLinks';
 import { allLinks } from '../../text/nav';
+import { callbackify } from 'util';
 
 export default class MobileNav extends PureComponent{
   state={
@@ -20,7 +21,7 @@ export default class MobileNav extends PureComponent{
       <nav className={styles.nav}>
         <section className={styles.navBar}>
           <img src={logo}></img>
-          <FaBars onClick={this.onClick} size='2rem'/>
+          <FaBars onClick={this.onClick} size={32}/>
         </section>
         <section className={styles.navMenu}>
           {this.state.clicked === true ? <ul>{mobileList}</ul> : null}
