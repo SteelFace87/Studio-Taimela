@@ -30,7 +30,8 @@
 .background{
   background-color:#F7F6F7;
   opacity: .9;
-  padding:0 2rem;
+  margin: 0 1rem;
+  padding:1rem;
   color:black;
 }
 .skills{

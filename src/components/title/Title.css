@@ -1,7 +1,10 @@
 .title{
-  
+  font-size:1.1rem;
+  @media (min-width: 720px){
+   
+    font-size:2rem;
+  }
   letter-spacing: .7rem;
-  font-size:2rem;
   color:rgb(249, 206, 79);
   text-transform:uppercase;
   margin:1rem;
