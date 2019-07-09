@@ -28,7 +28,7 @@ export default function Expertise() {
       icon: <FaBookReader size={48} />
     },
     {
-      text: 'Native in English and finnish',
+      text: 'Native in English and Finnish',
       icon: <FaRegComments size={48} />
     },
     {
