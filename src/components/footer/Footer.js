@@ -16,7 +16,7 @@ export default function Footer() {
         {contentList}
         <li>Icons by <a  rel="noopener noreferrer" target="_blank" href='https://fontawesome.com/'>Font Awesome</a></li>
         <li>Studio Taimela practices the world's greatest privacy
-policy: this website does not collect any personal data.</li>
+            policy: this website does not collect any personal data.</li>
       </ul>
 
     </footer>
