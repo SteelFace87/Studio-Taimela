@@ -3,6 +3,7 @@ import styles from './Background.css';
 import { education, languages, certificates } from '../../text/background';
 import Title from '../title/Title';
 import SkillMapper from './SkillMapper';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Background() {
 
@@ -18,9 +19,17 @@ export default function Background() {
             </ul>
           </section>
           <section className={styles.skills}>
-            <SkillMapper title={languages.title} skills={languages.skills}/>
-            <SkillMapper title={certificates.title} skills={certificates.skills}/>
+            <SkillMapper title={languages.title} skills={languages.skills} />
+            <SkillMapper title={certificates.title} skills={certificates.skills} />
           </section>
+        </section>
+        <section className={styles.social}>
+          <p>
+            Find my detailed work experience on LinkedIn
+          </p>
+          <a rel="noopener noreferrer" target = '_blank' href='https://www.linkedin.com/in/virpinieminen/'>
+            <FaLinkedin size={42} />
+          </a>
         </section>
       </section>
 

@@ -54,7 +54,6 @@ export default function Contact() {
           {about}
         </p>
       </section>
-
     </section>
   );
 }
