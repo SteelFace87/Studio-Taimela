@@ -20,6 +20,9 @@ html body{
 :global .bold{
   font-weight: bold;
 }
+ :global .true{
+    transform:translate(0rem ,24rem);
+ }
 
 
 
