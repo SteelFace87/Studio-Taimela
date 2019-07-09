@@ -31,7 +31,7 @@
   background-image: url('../../assets/images/mountain.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: 10rem;
+  background-position-y: 15rem;
   @media (min-width: 720px){
    background-position: 0;
   }
