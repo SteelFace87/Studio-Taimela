@@ -26,7 +26,6 @@ html body{
  }
 
 
-
 ul{
   list-style:none;
 }
@@ -37,4 +36,5 @@ ul{
 
 :global .page{
   min-height: 600px;
+  padding:0 1rem;
 }

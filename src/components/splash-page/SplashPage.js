@@ -9,7 +9,7 @@ export default function SplahPage(){
   const listItems = bullets.map((bullet, i)=><li key={i}>{bullet}</li>); 
 
   return (
-    <section className={[styles.section].join(' ')}>
+    <section className={[styles.section, 'page'].join(' ')}>
 
       <aside className={styles.intro}>
         <section className={styles.details}>
