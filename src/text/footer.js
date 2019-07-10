@@ -1,5 +1,5 @@
 const copyright = '© Studio Taimela';
-const designedBy = 'Designed By: Olli Nieminen';
+const designedBy = 'Created By: Olli Nieminen';
 
 
 export const footerContent = [
