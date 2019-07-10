@@ -6,9 +6,11 @@ html body{
   box-sizing: border-box;
   background-color: #8CBBBE;
   font-family: 'Roboto';
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
+    :global p h1 h2{
+      margin: 0 2rem;
+    }
 
 :global section.content{
   flex-grow: 1;
@@ -36,5 +38,4 @@ ul{
 
 :global .page{
   min-height: 600px;
-  padding:0 1rem;
 }
