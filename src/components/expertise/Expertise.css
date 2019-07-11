@@ -1,17 +1,51 @@
+.expertisePage{
+  
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../../assets/images/mountain.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: bottom;
+  background-attachment: scroll;
+  
+  @media (min-width: 720px){
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0;
+  }
+}
+.content{
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  align-items: center;
+  margin:8rem 1rem 0 1rem;
+  @media (min-width: 720px){
+    margin:8rem 4rem 8rem 4rem;
+    min-height: 20rem;
+    justify-content: center;
+               
+}
+}
 .ul{
   flex-direction: column;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:6rem;
+  padding:0 0 4rem 0;
+  
   @media (min-width: 720px){
+    width:100%;
     flex-direction: row;
     padding:0;
     margin:0;
     flex-wrap: wrap;
   }
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom:6rem;
-  padding:0;
-
 }
 .li{
   @media (min-width: 720px){
@@ -25,33 +59,9 @@
   p{
     color:black;
     font-size: 1.25rem;
-    margin: 2rem;
+    
   }
 }
-.section{
 
- display:flex;
- flex-direction: column;
-  text-align: center;
-  width: 100%;
-  min-height: 100vh;
-  background-image: url('../../assets/images/mountain.png');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position: bottom;
-  background-attachment: scroll;
-  
-  @media (min-width: 720px){
-    background-attachment: fixed;
-    background-size: cover;
-   background-position: 0;
-  }
-}
-.content{
- display:flex;
- justify-content: center;
- flex-grow: 1;
- align-items: center;
 
-}
 

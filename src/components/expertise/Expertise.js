@@ -10,8 +10,6 @@ import {
   FaRegFileAlt
 } from 'react-icons/fa';
 
-
-
 export default function Expertise() {
 
   const expertise = [
@@ -51,8 +49,8 @@ export default function Expertise() {
   });
 
   return (
-    <section id='Expertise' className={[styles.section, 'page'].join(' ')}>
-      <section className='content'>
+    <section id='Expertise' className={[styles.expertisePage, 'expertisePage'].join(' ')}>
+      <section className={styles.content}>
         <Title title='Expertise'/>
         <ul className={styles.ul}>
           {expertiseList}

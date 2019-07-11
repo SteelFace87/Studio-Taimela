@@ -15,14 +15,15 @@ export default function Services() {
     </li>;
   });
   return (
-    <main id='Services' className={[styles.section, 'page'].join(' ')}>
-      <section className='content'>
-        <Title title='services' />
-        <ul className={styles.servicesList}>
-          {servicesList}
-        </ul>
-        <p className={styles.aboutMe}>{aboutMe}</p>
-      </section>
+    <main id='Services' className={[styles.servicesPage, 'servicesPage'].join(' ')}>
+      <Title title='services'/>
+      <ul className={styles.servicesList}>
+        {servicesList}
+      </ul>
+      <p className={styles.aboutMe}>{aboutMe}</p>
+     
+
+   
     </main>
   );
 

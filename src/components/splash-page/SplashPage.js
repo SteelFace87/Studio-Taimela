@@ -4,22 +4,21 @@ import styles from './SplashPage.css';
 import { intro, bullets } from '../../text/splashPage';
 
 
-export default function SplahPage(){
+export default function SplahPage() {
 
-  const listItems = bullets.map((bullet, i)=><li key={i}>{bullet}</li>); 
+  const listItems = bullets.map((bullet, i) => <li key={i}>{bullet}</li>);
 
   return (
-    <section className={[styles.section, 'page'].join(' ')}>
-
-      <aside className={styles.intro}>
-        <section className={styles.details}>
-          <ul className={styles.list}>{listItems}</ul>
+    <section className={[styles.splashPage, 'splashPage'].join(' ')} >
+      <section className={[styles.intro, 'intro'].join(' ')}>
+        <ul className={styles.list}>{listItems}</ul>
+      </section>
+      <section className={[styles.imgContainer, 'imgContainer'].join(' ')}>
+        <section className={styles.textContainer}>
           <p>{intro}</p>
         </section>
-      </aside>
-  
-      <section className={styles.imgContainer}/>
-  
+        <section className={styles.img}/>    
+      </section>
     </section>
   );
 }

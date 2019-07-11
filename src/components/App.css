@@ -1,17 +1,12 @@
-
 html body{
   margin:0;
-  padding:0;
   color: #FFFFFF;
   box-sizing: border-box;
   background-color: #8CBBBE;
   font-family: 'Roboto';
   box-sizing: border-box; 
 }
-    :global p h1 h2{
-      margin: 0 2rem;
-    }
-
+  
 :global section.content{
   flex-grow: 1;
   display:flex;
@@ -30,12 +25,13 @@ html body{
 
 ul{
   list-style:none;
+  padding:0;
 }
 
 .test{
   z-index: 100;
 }
 
-:global .page{
-  min-height: 600px;
-}
+
+
+ 
