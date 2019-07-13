@@ -21,29 +21,23 @@ export default function App() {
 
   return (
     <Router>
-      <MobileNavHook/>
-      <Nav />
-      
-      <div style={{ heigth:'100px', width:'100px', backgroundColor:'green', position:'fixed', opacity:'.3' }}>
-
-
-      </div>
-     
-      <SplashPage />
-      <SubSection/>
-      <Expertise />
-      <SubSection/>
-      <Services/>
-      <SubSection/>
-      <Background/>
-      <SubSection/>
-      <Contact/>
-      <Footer/>
-    
+      <>
+        <MobileNavHook />
+        <Nav />
+        <div style={{ heigth: '100px', width: '100px', backgroundColor: 'green', position: 'fixed', opacity: '.3' }}>
+        </div>
+        <SplashPage />
+        <SubSection />
+        <Expertise />
+        <SubSection />
+        <Services />
+        <SubSection />
+        <Background />
+        <SubSection />
+        <Contact />
+        <Footer />
+      </>
     </Router>
-     
-      
-    
   );
-  
+
 }

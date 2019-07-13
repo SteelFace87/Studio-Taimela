@@ -10,15 +10,14 @@ export default function SplahPage() {
 
   return (
     <section className={[styles.splashPage, 'splashPage'].join(' ')} >
-      <section className={[styles.intro, 'intro'].join(' ')}>
+      <section className={styles.text}>
         <ul className={styles.list}>{listItems}</ul>
+        <p className={styles.intro}>{intro}</p>
+        <p className={styles.name}>Virpi Nieminen</p>
       </section>
-      <section className={[styles.imgContainer, 'imgContainer'].join(' ')}>
-        <section className={styles.textContainer}>
-          <p>{intro}</p>
-        </section>
-        <section className={styles.img}/>    
-      </section>
+     
+      <section className={styles.img}/>    
+      
     </section>
   );
 }

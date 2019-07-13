@@ -16,3 +16,4 @@ export const allLinks = [
   { title: 'Contact' }
 ]
 ;
+export const test = 'hi';
