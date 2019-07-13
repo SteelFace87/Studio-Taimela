@@ -25,9 +25,11 @@
   flex-direction: column;
   justify-content: center;
   @media(min-width:720px){
+    justify-content:space-between;
+  }
+  @media(min-height:1000px){
     margin-top:10%;
     margin-bottom:10%;
-    justify-content:space-between;
   }
   ul{
     color:gold;

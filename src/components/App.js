@@ -24,8 +24,6 @@ export default function App() {
       <>
         <MobileNavHook />
         <Nav />
-        <div style={{ heigth: '100px', width: '100px', backgroundColor: 'green', position: 'fixed', opacity: '.3' }}>
-        </div>
         <SplashPage />
         <SubSection />
         <Expertise />
