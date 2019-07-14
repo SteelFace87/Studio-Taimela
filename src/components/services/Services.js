@@ -21,9 +21,6 @@ export default function Services() {
         {servicesList}
       </ul>
       <p className={styles.aboutMe}>{aboutMe}</p>
-     
-
-   
     </main>
   );
 
