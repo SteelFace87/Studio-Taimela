@@ -13,11 +13,11 @@ export default function Contact() {
 
   const contact = [
     {
-      icon: <FaEnvelopeOpenText size={32} />,
+      icon: <FaEnvelopeOpenText size={64} />,
       text: 'Virpi@studiotaimela.com'
     },
     {
-      icon: <FaMapMarked size={32} />,
+      icon: <FaMapMarked size={64} />,
       text:
         <>
           <span>Grosswiesenstrasse 145</span>
@@ -26,7 +26,7 @@ export default function Contact() {
         </>
     },
     {
-      icon: <FaPhone size={32} />,
+      icon: <FaPhone size={64} />,
       text:
         <>
           <span>+41 77 979 9734</span>
@@ -45,15 +45,15 @@ export default function Contact() {
   });
   return (
     <section id='Contact' className={[styles.section, 'page'].join(' ')}>
-      <section className='content'>
-        <Title title=' get in contact' />
-        <ul className={styles.ul}>
-          {contactList}
-        </ul>
-        <p className={styles.black}>
-          {about}
-        </p>
-      </section>
+     
+      <Title title=' get in contact' />
+      <ul className={styles.ul}>
+        {contactList}
+      </ul>
+      <p className={styles.black}>
+        {about}
+      </p>
+   
     </section>
   );
 }
