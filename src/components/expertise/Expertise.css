@@ -1,5 +1,6 @@
 .expertisePage{
   overflow:hidden;
+  padding-top:8rem;
   display:flex;
   flex-direction: column;
   text-align: center;
@@ -12,25 +13,13 @@
   @media (min-width: 720px){
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0;
+    background-position: left 0 bottom -140px;
+  
     padding: 8rem  15vw 0 15vw;  
  
 }
 }
-.content{
-  display:flex;
-  flex-direction:column;
-  justify-content: flex-start;
- 
-  align-items: center;
- 
-  @media (min-width: 720px){
-   
-    min-height: 20rem;
-    justify-content: center;
-               
-}
-}
+
 .ul{
   flex-direction: column;
   display:flex;
@@ -38,13 +27,14 @@
   justify-content: space-around;
   margin-bottom:6rem;
 
-  
   @media (min-width: 720px){
   
     flex-direction: row;
-    padding:0;
+    padding:2rem 0 10rem 0;
     margin:0;
     flex-wrap: wrap;
+    min-height: 60vh;
+
   }
 }
 .li{

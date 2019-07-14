@@ -51,11 +51,11 @@ export default function Expertise() {
   return (
     <section id='Expertise' className={[styles.expertisePage, 'expertisePage'].join(' ')}>
       <Title title='Expertise'/>
-      <section className={styles.content}>
-        <ul className={styles.ul}>
-          {expertiseList}
-        </ul>
-      </section>
+
+      <ul className={styles.ul}>
+        {expertiseList}
+      </ul>
+
     </section>
   );
 }
