@@ -9,7 +9,7 @@
   padding: 8rem 1rem 1rem 1rem;
   @media(min-width: 720px){
     padding: 8rem 12rem 1rem 12rem;
-    font-size:1.75rem;
+    font-size:1.5rem;
   }
 }
 .ul{
@@ -21,6 +21,9 @@
   }
   padding: 0;
   justify-content: center;
+  @media(min-width: 1200px){
+    justify-content: space-around;
+  }
 }
 .li{
   height: 42vw;
@@ -31,14 +34,21 @@
   flex-direction: column;
   border-radius: 100%;
   background-color:#88A5CA;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin:2rem;
   p{
     display:flex;
     flex-direction: column;
+  }
+  @media(min-width: 1200px){
+    flex-wrap:wrap;
+  
+    align-items: center;
+    margin:3rem;
+    height: 22vw;
+    width: 22vw;
+    
   }
 }
 .li p:nth-child(2){
