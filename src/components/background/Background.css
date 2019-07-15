@@ -81,6 +81,9 @@
   a{
     color:inherit
   }
+  p{
+    color:white;
+  }
   @media(min-width: 720px){
     font-size: 2rem;
     margin-bottom:2rem;
