@@ -6,15 +6,15 @@ import {
   FaRandom,
   FaGlobeAmericas,
   FaBookReader,
-  FaRegComments,
-  FaRegFileAlt
+  FaRegFileAlt,
+  FaRegStar
 } from 'react-icons/fa';
 
 export default function Expertise() {
 
   const expertise = [
     {
-      text: 'Ability to quickly grasp complex solutions',
+      text: 'Ability to quickly grasp complex, technical solutions',
       icon: <FaRandom size={48} />
     },
     {
@@ -22,12 +22,12 @@ export default function Expertise() {
       icon: <FaGlobeAmericas size={48} />
     },
     {
-      text: 'Ability to translate tech talk into client\'s laungage',
+      text: 'Can translate tech talk into non-technical language',
       icon: <FaBookReader size={48} />
     },
     {
-      text: 'Native in English and Finnish',
-      icon: <FaRegComments size={48} />
+      text: 'Able to see past complexity to bring out the best',
+      icon: <FaRegStar size={48} />
     },
     {
       text: 'Copywrite and layout design',

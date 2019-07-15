@@ -11,7 +11,7 @@ export const services = [
     content: `Get noticed by your
     target audience with
     success stories,
-    articles etc`
+    articles etc.`
   },
   {
     title: 'Presales Support',
