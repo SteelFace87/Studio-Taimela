@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './SplashPage.css';
 
-import { intro, bullets } from '../../text/splashPage';
+import { bullets } from '../../text/splashPage';
 
 
 export default function SplahPage() {
@@ -11,9 +11,13 @@ export default function SplahPage() {
   return (
     <section className={[styles.splashPage, 'splashPage'].join(' ')} >
       <section className={styles.text}>
-        <ul className={styles.list}>{listItems}</ul>
-        <p className={styles.intro}>{intro}</p>
-        <p className={styles.name}>Virpi Nieminen</p>
+        <ul className={styles.titles}>{listItems}</ul>
+        <ul className={[styles.about, 'about'].join(' ')}>
+          <li><p>I help tech companies with</p></li>
+          <li><p>complex solutions to bring</p></li>
+          <li><p>out their best</p></li>
+          <li><p>Virpi Taimela</p></li>
+        </ul>
       </section>
      
       <section className={styles.img}/>    

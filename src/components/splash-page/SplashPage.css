@@ -1,79 +1,100 @@
 .splashPage{
   display:flex;
   flex-direction: column;
-  min-height: 10rem;
   min-height: calc(100vh - 8rem);
   padding: 8rem  1rem 0 1rem;
-  @media(min-width: 720px){ 
-    padding: 8rem  15vw 0 15vw;  
-    p{    
-      margin-right:20vw;
-    }
-}
-}
+  @media(min-width: 750px){ 
 
-.list{
+    padding: 10rem  5rem 0 5rem;  
+}
+@media(min-width: 1100px){
+  flex-direction:row;
+}
+}
+.titles{
+  color:gold;
+  margin:0 0 1rem 0;
+  font-weight: bold;
   font-size:1.5rem;
-  @media(min-width: 720px){
+  @media(min-width: 420px){
+    font-size:2rem;
+  }
+  @media(min-width: 520px){
     font-size:2.5rem;
   }
-  @media(min-width:1200px){
-    font-size:3.75rem;
+ 
+  @media(min-width:900px){
+   font-size:3rem;
   }
-
+  @media(min-width:1100px){
+    font-size: 2.1rem;
+  }
+  @media(min-width:1300px){
+    font-size: 3rem;
+  }
+  @media(min-width:1600px){
+    font-size: 4rem;
+  }
+ 
+}
+.about{
+  margin-top:1rem;
+  @media(min-width: 420px){
+    font-size:1.4rem;
+  }
+  @media(min-width: 520px){
+    font-size:1.8rem;
+  }
+ 
+  @media(min-width:900px){
+    font-size:2.2em;
+  } 
+  @media(min-width:1100px){
+    font-size: 1.8rem;
+  }
+  @media(min-width:1300px){
+    font-size: 2.2rem;
+  }
+  @media(min-width:1600px){
+    font-size: 2.9em;
+  }
+}
+.about li:last-child{
+  margin-top:2rem;
 }
 .text{
+  list-style: none;
   flex-grow:1;
   display:flex;
   flex-direction: column;
   justify-content: center;
-  @media(min-width:720px){
-    justify-content:space-between;
-  }
-  @media(min-height:1000px){
-    margin-top:10%;
-    margin-bottom:10%;
-  }
-  ul{
-    color:gold;
-    @media(min-width: 720px){
-      margin:0;
-    }
-  }
+ 
  p{
    color:black;
+   margin: 0;
+   font-weight: bold;
+   font-style:italic;
  }
- @media(min-width: 720px){
-  
- }
-
 }
-
-
-.intro{
-  font-style: italic;
-  font-size:1rem;
-  margin-bottom:0;
-  @media(min-width: 720px){
-    font-size:2rem;
-  }
-}
-
-
 
 .img{
+  height:320px;
   width:100%;
   background-image:url('../../assets/images/profile.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center  bottom;
-  width:100%;
-  height: 40vh;
-
-  @media(min-width: 720px){
-    min-height: 20rem;
-    width:32rem;
+ 
+  
+  @media(min-width: 750px){
+   
+    height:500px;
+    width:500px;
     margin-left:auto;
     background-position: right bottom;
+  }
+  @media(min-width:1100px){
+   align-self:flex-end;
+   min-height: 38rem;
   }
 }

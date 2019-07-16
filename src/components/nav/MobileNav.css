@@ -6,7 +6,7 @@
   position:fixed;
   width:100%;
   top:0px;
-  @media (min-width: 720px){
+  @media (min-width: 750px){
    
     display: none;
   }
@@ -14,7 +14,7 @@
 
 .navBar{
   margin:0;
-  @media (min-width: 720px){
+  @media (min-width: 750px){
     margin: 0 4rem;
   }
   width:100%;

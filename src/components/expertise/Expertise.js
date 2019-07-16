@@ -22,7 +22,7 @@ export default function Expertise() {
       icon: <FaGlobeAmericas size={48} />
     },
     {
-      text: 'Can translate tech talk into non-technical language',
+      text: 'Can translate tech talk into non technical language',
       icon: <FaBookReader size={48} />
     },
     {
@@ -33,9 +33,7 @@ export default function Expertise() {
       text: 'Copywrite and layout design',
       icon: <FaRegFileAlt size={48} />
     }
-  ]
-    ;
-
+  ];
 
   const expertiseList = expertise.map((expertise, i) => {
     return <li key={i}>
