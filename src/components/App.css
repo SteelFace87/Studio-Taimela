@@ -5,6 +5,7 @@ html body{
   background-color: #8CBBBE;
   font-family: 'Roboto';
   box-sizing: border-box; 
+  color: #262626;
 }
   
 :global section.content{

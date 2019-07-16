@@ -9,10 +9,11 @@
 }
 @media(min-width: 1100px){
   flex-direction:row;
+  padding: 10rem 10vw 0 10vw;
 }
 }
 .titles{
-  color:gold;
+  color:#FFD67A;
   margin:0 0 1rem 0;
   font-weight: bold;
   font-size:1.5rem;
@@ -38,6 +39,7 @@
  
 }
 .about{
+
   margin-top:1rem;
   @media(min-width: 420px){
     font-size:1.4rem;
@@ -51,6 +53,7 @@
   } 
   @media(min-width:1100px){
     font-size: 1.8rem;
+    
   }
   @media(min-width:1300px){
     font-size: 2.2rem;
@@ -72,9 +75,9 @@
  p{
    color:black;
    margin: 0;
-   font-weight: bold;
    font-style:italic;
  }
+
 }
 
 .img{
@@ -96,5 +99,6 @@
   @media(min-width:1100px){
    align-self:flex-end;
    min-height: 38rem;
+   background-position: left bottom;
   }
 }
