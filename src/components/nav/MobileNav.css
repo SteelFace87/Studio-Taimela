@@ -6,6 +6,7 @@
   position:fixed;
   width:100%;
   top:0px;
+  color:white;
   @media (min-width: 750px){
    
     display: none;
@@ -33,6 +34,7 @@
 }
 
 .navMenu{
+  color:white;
   z-index:98;
   background-color: rgba(0,0,0,.5); 
   position:fixed;

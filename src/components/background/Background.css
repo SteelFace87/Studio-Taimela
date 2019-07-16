@@ -20,7 +20,7 @@
   display: flex;
   flex-direction:column;
   align-items: center;
-  color:black;
+  
  
   li:first-child{
     font-weight:700;
@@ -42,7 +42,7 @@
   min-height: 40vh;
   justify-content: center;
   padding: 10%;
-  color:black;
+
 }
 .backgroundText{
   display:flex;
@@ -70,7 +70,7 @@
   }
 }
 .social{
-  color:black;
+  
   font-weight: bold;
   display:flex;
   flex-direction: column;

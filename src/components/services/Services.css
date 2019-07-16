@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color:black;
+ 
   width:100%;
   h2{
       font-weight: bold;
@@ -60,7 +60,7 @@
 .aboutMe{
 
   margin:2rem;
-  color:black;
+
   @media (min-width: 720px){
    width:60%;
    text-align:center;
