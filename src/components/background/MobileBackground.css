@@ -33,6 +33,10 @@
     display:flex;
     section:first-child{
       margin-right: 2rem;
+      margin-left:auto;
+    }
+    section:last-child{
+      margin-right:auto;
     }
   }
 }

@@ -27,6 +27,12 @@
     flex-direction:row;
     justify-content: space-around;
     width:100%;
+    li:last-child{
+      margin-right:auto;
+    }
+    li:first-child{
+      margin-left:auto;
+    }
   }
 }
 .li{
