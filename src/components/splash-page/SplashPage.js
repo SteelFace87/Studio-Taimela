@@ -9,7 +9,7 @@ export default function SplahPage() {
   const listItems = bullets.map((bullet, i) => <li key={i}>{bullet}</li>);
 
   return (
-    <section className={[styles.splashPage, 'splashPage'].join(' ')} >
+    <section id="Splashpage" className={[styles.splashPage, 'splashPage'].join(' ')} >
       <section className={styles.text}>
         <ul className={styles.titles}>{listItems}</ul>
         <ul className={[styles.about, 'about'].join(' ')}>
