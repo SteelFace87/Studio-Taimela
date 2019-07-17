@@ -53,5 +53,7 @@
   }
 }
 .paragraph{
+  text-align:center;
   margin:auto;
+  padding-bottom:1rem;
 }
