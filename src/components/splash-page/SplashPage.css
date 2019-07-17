@@ -10,6 +10,7 @@
 @media(min-width: 1100px){
   flex-direction:row;
   padding: 10rem 12vw 0 11vw;
+  min-height: calc(100vh - 10rem);
 }
 }
 .titles{

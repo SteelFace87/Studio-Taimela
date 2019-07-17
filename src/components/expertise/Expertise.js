@@ -5,9 +5,9 @@ import Title from '../title/Title';
 import {
   FaRandom,
   FaGlobeAmericas,
-  FaBook,
-  FaRegFileAlt,
-  FaRegStar,
+  FaComments,
+  FaFileAlt,
+  FaStar,
 } from 'react-icons/fa';
 
 
@@ -24,15 +24,15 @@ export default function Expertise() {
     },
     {
       text: ['Able to translate', 'tech talk into', 'non-technical', 'language'],
-      icon: <FaBook size={36} />
+      icon: <FaComments size={36} />
     },
     {
       text: ['Can see past', 'complexity to', 'bring out the', 'best'],
-      icon: <FaRegStar size={36} />
+      icon: <FaStar size={36} />
     },
     {
       text: ['Both', 'copywriting', 'and layout', 'design'],
-      icon: <FaRegFileAlt size={36} />
+      icon: <FaFileAlt size={36} />
     }
   ];
 
