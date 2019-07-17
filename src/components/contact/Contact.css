@@ -42,6 +42,7 @@
   background-color:#88A5CA;
   border-radius: 100%;
   p{
+    height: 50%;
     display:flex;
     flex-direction: column;
   }
