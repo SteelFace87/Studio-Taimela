@@ -14,7 +14,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <ul>
         {contentList}
-        <li>Icons by: <a aria-label='React Icons' rel="noopener noreferrer" target="_blank" href='https://react-icons.netlify.com'>React Icons</a></li>
+        <li>Website by <a aria-label='Olli Nieminen' rel="noopener noreferrer" target="_blank" href='https://www.linkedin.com/in/nieminenolli/'>Olli Nieminen</a></li>
+        <li>Icons by <a aria-label='Font Awesome' rel="noopener noreferrer" target="_blank" href='https://creativecommons.org/licenses/by/4.0/legalcode'>Font Awesome</a></li>
         <li>Studio Taimela practices the world's greatest privacy
             policy: this website does not collect any personal data.</li>
       </ul>

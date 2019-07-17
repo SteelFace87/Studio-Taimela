@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Background.css';
-import { education, languages, certificates } from '../../text/background';
+import { education } from '../../text/background';
 import Title from '../title/Title';
-import SkillMapper from './SkillMapper';
+
 import { FaLinkedin } from 'react-icons/fa';
 import MobileBackground from './MobileBackground';
 

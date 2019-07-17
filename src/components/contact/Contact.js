@@ -20,8 +20,8 @@ export default function Contact() {
       icon: <FaMapMarked size={32} />,
       text:
         <>
-          <span>Grosswiesenstrasse 145</span>
-          <span>8051 Zurich</span>
+      
+          <span>Zürich</span>
           <span>Switzerland</span>
         </>
     },
