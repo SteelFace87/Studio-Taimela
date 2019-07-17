@@ -10,37 +10,37 @@ export const languages = {
     [
       {
         style:'bold',
-        content:'English'
+        content:['English']
       },
       {
-        content:'native, born in Pittsburgh PA'
+        content:['native, born in', 'Pittsburgh PA']
       }
     ],
     [
       {
         style:'bold',
-        content:'Finnish'
+        content:['Finnish']
       },
       {
-        content:'native through parents'
+        content:['native through parents']
       }
     ],
     [
       {
         style:'bold',
-        content:'French'
+        content:['French']
       },
       {
-        content:'can order wine and food'
+        content:['can order wine and food']
       }
     ],
     [
       {
         style:'bold',
-        content:'German'
+        content:['German']
       },
       {
-        content:'can talk about the weather'
+        content:['can talk about the weather']
       }
     ]
     
@@ -59,37 +59,37 @@ export const certificates = {
     [
       {
         style:'bold',
-        content:'TOGAF'
+        content:['TOGAF']
       },
       {
-        content:'Foundation'
+        content:['Foundation']
       }
     ],
     [
       {
         style:'bold',
-        content:'ITIL'
+        content:['ITIL']
       },
       {
-        content:'Certified'
+        content:['Certified']
       }
     ],
     [
       {
         style:'bold',
-        content:'PRINCE 2'
+        content:['PRINCE 2']
       },
       {
-        content:'Foundation'
+        content:['Foundation']
       }
     ],
     [
       {
-        content:'Trained in'
+        content:['Trained in']
       },
       {
         style:'bold',
-        content:'Balanced Scoreboard'
+        content:['Balanced Scoreboard']
       }
     ]
   ]

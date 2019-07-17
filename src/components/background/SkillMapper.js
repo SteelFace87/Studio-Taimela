@@ -10,10 +10,13 @@ export default function SkillMapper({ title, skills }){
       <p className={styles.symbol}>✔ </p>
       {
         skillArray.map((skillObject, i)=>{
-          return <p className={skillObject.style ? 'bold' : null} key={i}>{skillObject.content}</p>;
+          console.log('skill array', skillObject);
+          return <>
+          {/* <p className={skillObject.style ? 'bold' : null} key={i}>{skillObject.content}</p> */}
+          {skillObject.content.map((skill, i)=><p className={styles.skillText} key={i}>{skill}</p>)}
+          </>;
         })
-      }
-    
+      } 
     </li>;
   });
   return (

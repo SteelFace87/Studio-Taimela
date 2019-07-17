@@ -4,6 +4,7 @@ import { education, languages, certificates } from '../../text/background';
 import Title from '../title/Title';
 import SkillMapper from './SkillMapper';
 import { FaLinkedin } from 'react-icons/fa';
+import MobileBackground from './MobileBackground';
 
 export default function Background() {
 
@@ -21,8 +22,10 @@ export default function Background() {
             </ul>
           </section>
           <section className={styles.skills}>
-            <SkillMapper title={languages.title} skills={languages.skills} />
-            <SkillMapper title={certificates.title} skills={certificates.skills} />
+            <MobileBackground/>
+            {/* <SkillMapper title={languages.title} skills={languages.skills} />
+            <SkillMapper title={certificates.title} skills={certificates.skills} /> */}
+
           </section>
         </section>
 
