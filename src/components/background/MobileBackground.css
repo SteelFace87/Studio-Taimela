@@ -32,7 +32,7 @@
   @media(min-width: 1100px){
     display:flex;
     section:first-child{
-      margin-right: 2rem;
+      margin-right: 4rem;
       margin-left:auto;
     }
     section:last-child{

@@ -23,6 +23,7 @@
     background-size: 120% 1400px;
   }
   @media (min-width: 1100px){
+    min-height: calc(100vh - 12rem);
     background-attachment: scroll;
     padding: 12rem  5rem 0 5rem; 
     background-position: left 0px bottom -50px;
