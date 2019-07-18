@@ -39,6 +39,9 @@
       margin-right:auto;
     }
   }
+  li{
+    margin-right:.2rem;
+  }
 }
 .section{
   margin-bottom:1rem;

@@ -10,7 +10,7 @@ export default function MobileBackground(){
           <li className={styles.check}>✓</li>
           <li><h4>English</h4></li>
           <li><p>native, born in</p></li>
-          <li><p>Pittsburgh, PA</p></li>
+          <li><p>Pittsburgh, PA USA</p></li>
         </ul>
         <ul>
           <li className={styles.check}>✓</li>
