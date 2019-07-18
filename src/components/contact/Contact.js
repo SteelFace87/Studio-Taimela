@@ -38,7 +38,7 @@ export default function Contact() {
   const contactList = contact.map((contact, i) => {
     return (
       <li className={styles.li} key={i}>
-        <p>{contact.icon}</p>
+        <p className={styles.logo}>{contact.icon}</p>
         <p>{contact.text}</p>
       </li>
     );
