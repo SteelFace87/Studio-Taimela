@@ -6,12 +6,6 @@ export const education = {
 
 
 
-// 'TOGAF Foundation',
-// 'ITIL Certified',
-// 'PRINCE 2 Foundation',
-// 'Trained in Balanced Scorecard'
-
-
 export const certificates = {
   title:'Certificates',
   skills:[
