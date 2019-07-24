@@ -27,4 +27,4 @@ export const services = [
   ;
 
 export const aboutMe = `I especially enjoy working with innovative companies,
-smart cities and creative solutions to improve the quality of life.`;
+smart cities and creative solutions that improve the quality of life.`;

@@ -4,48 +4,7 @@ export const education = {
   school:'Solvay Brussels Schoool, Belgium'
 };
 
-export const languages = {
-  title:'Languages',
-  skills:[
-    [
-      {
-        style:'bold',
-        content:['English']
-      },
-      {
-        content:['native, born in', 'Pittsburgh PA']
-      }
-    ],
-    [
-      {
-        style:'bold',
-        content:['Finnish']
-      },
-      {
-        content:['native through parents']
-      }
-    ],
-    [
-      {
-        style:'bold',
-        content:['French']
-      },
-      {
-        content:['can order wine and food']
-      }
-    ],
-    [
-      {
-        style:'bold',
-        content:['German']
-      },
-      {
-        content:['can talk about the weather']
-      }
-    ]
-    
-  ]
-};
+
 
 // 'TOGAF Foundation',
 // 'ITIL Certified',

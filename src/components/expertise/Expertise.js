@@ -23,7 +23,7 @@ export default function Expertise() {
       icon: <FaGlobeAmericas size={36} />
     },
     {
-      text: ['Able to translate', 'tech talk into', 'non-technical', 'language'],
+      text: ['Translate', 'tech talk into', 'non-technical', 'language'],
       icon: <FaComments size={36} />
     },
     {

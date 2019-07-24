@@ -2,18 +2,14 @@ import React from 'react';
 import styles from './Background.css';
 import { education } from '../../text/background';
 import Title from '../title/Title';
-
 import { FaLinkedin } from 'react-icons/fa';
 import MobileBackground from './MobileBackground';
 
 export default function Background() {
-
   return (
-    <section id='Background' className={[styles.backgroundPage, 'backgroundPage'].join(' ')}>
-    
+    <section id='Background' className={[styles.backgroundPage, 'backgroundPage'].join(' ')}>  
       <section className={styles.background}>
         <Title title='background' />
-
         <section className={styles.backgroundText}>
           <section>
             <ul className={styles.ulEducation}>
@@ -25,7 +21,6 @@ export default function Background() {
             <MobileBackground/>
             {/* <SkillMapper title={languages.title} skills={languages.skills} />
             <SkillMapper title={certificates.title} skills={certificates.skills} /> */}
-
           </section>
         </section>
 
@@ -38,9 +33,6 @@ export default function Background() {
           <FaLinkedin size={42} />
         </a>
       </section>
-
-
-
     </section>
   );
 }

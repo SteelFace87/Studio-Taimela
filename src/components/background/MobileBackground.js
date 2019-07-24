@@ -9,26 +9,24 @@ export default function MobileBackground(){
         <ul>
           <li className={styles.check}>✓</li>
           <li><h4>English</h4></li>
-          <li><p>native, born in</p></li>
-          <li><p>Pittsburgh, PA USA</p></li>
+          <li><p>Native, born in</p></li>
+          <li><p>the USA</p></li>
         </ul>
         <ul>
           <li className={styles.check}>✓</li>
           <li><h4>Finnish</h4></li>
-          <li><p>native through</p></li>
-          <li><p>parents</p></li>
+          <li><p>Mother tongue</p></li>
         </ul>
         <ul>
           <li className={styles.check}>✓</li>
           <li><h4>French</h4></li>
-          <li><p>can order</p></li>
-          <li><p> wine and food</p></li>
+          <li><p>Conversational (B2)</p></li>
+
         </ul>
         <ul>
           <li className={styles.check}>✓</li>
           <li><h4>German</h4></li>
-          <li><p>can talk about</p></li>
-          <li><p>the weather</p></li>
+          <li><p>Conversational (B1)</p></li>
         </ul>
       </section>
       <section className={styles.section}>
