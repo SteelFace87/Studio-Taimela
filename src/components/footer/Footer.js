@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <ul>
-        <li><Link to='#Splashpage'><FaChevronCircleUp size={32}/></Link></li>
+        <li><Link aria-label='splash page' rel="noopener noreferrer" to='#Splashpage'><FaChevronCircleUp size={32}/></Link></li>
 
         {contentList}
         <li>Website by <a aria-label='Olli Nieminen' rel="noopener noreferrer" target="_blank" href='https://www.linkedin.com/in/nieminenolli/'>Olli Nieminen</a></li>

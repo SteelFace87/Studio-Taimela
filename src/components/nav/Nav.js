@@ -16,7 +16,7 @@ export default function Nav(){
         {leftNavLinks}
       </section>
       <section className={styles.logoContainer}>
-        <img alg='logo' src={logo}/>
+        <img alt='logo' src={logo}/>
       </section>
       <section className={styles.rightLinkContainer}>
         {rightNavLinks}
