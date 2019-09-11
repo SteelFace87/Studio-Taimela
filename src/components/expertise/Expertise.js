@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Expertise.css';
 import Title from '../title/Title';
+import ContentDevider from '../content-devider/ContentDevider';
 
 import {
   FaRandom,
@@ -41,22 +42,21 @@ export default function Expertise() {
       <section className={styles.li}>
         {expertise.icon}
         <ul className={styles.iconUl}>
-          {expertise.text.map((text, i)=><li key={i}>{text}</li>)}
+          {expertise.text.map((text, i) => <li key={i}>{text}</li>)}
         </ul>
       </section>
     </li>;
   });
 
   return (
-    <section id='Expertise' className={[styles.expertisePage, 'expertisePage'].join(' ')}>
-      
-
-      <Title title='Expertise'/>
-      <ul className={styles.ul}>
-        {expertiseList}
-      </ul>
-      
-
-    </section>
+    <>
+      <section id='Expertise' className={[styles.expertisePage, 'expertisePage'].join(' ')}>
+        <Title title='Expertise' />
+        <ul className={styles.ul}>
+          {expertiseList}
+        </ul>
+      </section>
+      <ContentDevider />
+    </>
   );
 }
