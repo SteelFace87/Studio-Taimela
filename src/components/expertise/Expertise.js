@@ -1,8 +1,4 @@
 import React from 'react';
-import styles from './Expertise.css';
-import Title from '../title/Title';
-import ContentDevider from '../content-devider/ContentDevider';
-
 import {
   FaRandom,
   FaGlobeAmericas,
@@ -10,51 +6,55 @@ import {
   FaFileAlt,
   FaStar,
 } from 'react-icons/fa';
-
+import styles from './Expertise.css';
+import Title from '../title/Title';
+import ContentDevider from '../content-devider/ContentDevider';
 
 export default function Expertise() {
-
   const expertise = [
     {
       text: ['Able to quickly', 'grasp complex,', 'technical', 'solutions'],
-      icon: <FaRandom size={36} />
+      icon: <FaRandom size={36} />,
     },
     {
       text: ['Extensive', 'experience in', 'international', 'business'],
-      icon: <FaGlobeAmericas size={36} />
+      icon: <FaGlobeAmericas size={36} />,
     },
     {
       text: ['Translate', 'tech talk into', 'non-technical', 'language'],
-      icon: <FaComments size={36} />
+      icon: <FaComments size={36} />,
     },
     {
       text: ['Can see past', 'complexity to', 'bring out the', 'best'],
-      icon: <FaStar size={36} />
+      icon: <FaStar size={36} />,
     },
     {
       text: ['Both', 'copywriting', 'and layout', 'design'],
-      icon: <FaFileAlt size={36} />
-    }
+      icon: <FaFileAlt size={36} />,
+    },
   ];
 
-  const expertiseList = expertise.map((expertise, i) => {
-    return <li key={i}>
+  const expertiseList = expertise.map((expertiseItem, i) => (
+    <li key={i}>
       <section className={styles.li}>
-        {expertise.icon}
+        {expertiseItem.icon}
         <ul className={styles.iconUl}>
-          {expertise.text.map((text, i) => <li key={i}>{text}</li>)}
+          {expertiseItem.text.map((text, textIndex) => (
+            <li key={textIndex}>{text}</li>
+          ))}
         </ul>
       </section>
-    </li>;
-  });
+    </li>
+  ));
 
   return (
     <>
-      <section id='Expertise' className={[styles.expertisePage, 'expertisePage'].join(' ')}>
-        <Title title='Expertise' />
-        <ul className={styles.ul}>
-          {expertiseList}
-        </ul>
+      <section
+        id="Expertise"
+        className={[styles.expertisePage, 'expertisePage'].join(' ')}
+      >
+        <Title title="Expertise" />
+        <ul className={styles.ul}>{expertiseList}</ul>
       </section>
       <ContentDevider />
     </>

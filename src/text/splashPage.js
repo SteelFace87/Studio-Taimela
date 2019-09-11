@@ -1,2 +1,5 @@
-
-export const bullets = ['STRATEGIC MARKETER.', 'CREATIVE THINKER.', 'TECH ENTHUSIAST.'];
+export const bullets = [
+  'STRATEGIC MARKETER.',
+  'CREATIVE THINKER.',
+  'TECH ENTHUSIAST.',
+];
