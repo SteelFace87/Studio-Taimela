@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SubSection.css';
+import styles from './ContentDevider.css';
 
 export default function SubSection(){
   return (

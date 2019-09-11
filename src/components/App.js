@@ -6,7 +6,7 @@ import Expertise from './expertise/Expertise';
 import Background from './background/Background';
 import Contact from './contact/Contact';
 import Footer from './footer/Footer';
-import SubSection from './SubSection';
+import ContentDevider from './content-devider/ContentDevider';
 import Services from './services/Services';
 import MobileNavHook from './nav/MobileNavHook';
 
@@ -25,13 +25,13 @@ export default function App() {
         <MobileNavHook />
         <Nav />
         <SplashPage />
-        <SubSection />
+        <ContentDevider />
         <Expertise />
-        <SubSection />
+        <ContentDevider />
         <Services />
-        <SubSection />
+        <ContentDevider />
         <Background />
-        <SubSection />
+        <ContentDevider />
         <Contact />
         <Footer />
       </>
