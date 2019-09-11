@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './SplashPage.css';
+import ContentDevider from '../content-devider/ContentDevider';
 
 import { bullets } from '../../text/splashPage';
 
@@ -9,6 +10,7 @@ export default function SplahPage() {
   const listItems = bullets.map((bullet, i) => <li key={i}>{bullet}</li>);
 
   return (
+    <>
     <section id="Splashpage" className={[styles.splashPage, 'splashPage'].join(' ')} >
       <section className={styles.text}>
         <ul className={styles.titles}>{listItems}</ul>
@@ -23,5 +25,7 @@ export default function SplahPage() {
       <section className={styles.img}/>    
       
     </section>
+    <ContentDevider/>
+    </>
   );
 }
