@@ -1,51 +1,46 @@
-
 export const education = {
-  degree:'Master\'s degree in Management Science',
-  school:'Solvay Brussels Schoool, Belgium'
+  degree: "Master's degree in Management Science",
+  school: 'Solvay Brussels Schoool, Belgium',
 };
-
-
 
 export const certificates = {
-  title:'Certificates',
-  skills:[
+  title: 'Certificates',
+  skills: [
     [
       {
-        style:'bold',
-        content:['TOGAF']
+        style: 'bold',
+        content: ['TOGAF'],
       },
       {
-        content:['Foundation']
-      }
+        content: ['Foundation'],
+      },
     ],
     [
       {
-        style:'bold',
-        content:['ITIL']
+        style: 'bold',
+        content: ['ITIL'],
       },
       {
-        content:['Certified']
-      }
+        content: ['Certified'],
+      },
     ],
     [
       {
-        style:'bold',
-        content:['PRINCE 2']
+        style: 'bold',
+        content: ['PRINCE 2'],
       },
       {
-        content:['Foundation']
-      }
+        content: ['Foundation'],
+      },
     ],
     [
       {
-        content:['Trained in']
+        content: ['Trained in'],
       },
       {
-        style:'bold',
-        content:['Balanced Scoreboard']
-      }
-    ]
-  ]
+        style: 'bold',
+        content: ['Balanced Scoreboard'],
+      },
+    ],
+  ],
 };
-
-

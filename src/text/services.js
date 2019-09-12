@@ -4,14 +4,14 @@ export const services = [
     content: `A plan of meaningful
     content for each step
     of the customer
-    journey`
+    journey`,
   },
   {
     title: 'Content Creation',
     content: `Get noticed by your
     target audience with
     success stories,
-    articles etc.`
+    articles etc.`,
   },
   {
     title: 'Presales Support',
@@ -20,11 +20,9 @@ export const services = [
     demos that won’t
     leave the audience
     cold
-    `
-
-  }
-]
-  ;
+    `,
+  },
+];
 
 export const aboutMe = `I especially enjoy working with innovative companies,
 smart cities and creative solutions that improve the quality of life.`;

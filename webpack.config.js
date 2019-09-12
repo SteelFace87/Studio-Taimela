@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 const HtmlPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -7,16 +8,16 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.[hash].js',
-    publicPath: '/'
+    publicPath: '/',
   },
   devServer: {
     port: 7890,
-    historyApiFallback: true
+    historyApiFallback: true,
   },
   plugins: [
     new FaviconsWebpackPlugin('./src/assets/images/favicon.png'),
     new HtmlPlugin({ template: './src/index.html' }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
   ],
   module: {
     rules: [
@@ -26,24 +27,24 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            cacheDirectory: true
-          }
-        }
+            cacheDirectory: true,
+          },
+        },
       },
       {
         test: /\.css$/,
         use: [
           {
             loader: 'style-loader',
-            options: { sourceMap: true }
+            options: { sourceMap: true },
           },
           {
             loader: 'css-loader',
             options: {
               sourceMap: true,
               modules: true,
-              importLoaders: 1
-            }
+              importLoaders: 1,
+            },
           },
           {
             loader: 'postcss-loader',
@@ -53,11 +54,11 @@ module.exports = {
                 require('postcss-import')(),
                 require('autoprefixer')(),
                 require('postcss-nested')(),
-                require('postcss-simple-vars')()
-              ]
-            }
-          }
-        ]
+                require('postcss-simple-vars')(),
+              ],
+            },
+          },
+        ],
       },
       {
         test: /\.(jpeg|jpg|png|svg)$/,
@@ -65,7 +66,7 @@ module.exports = {
           loader: 'url-loader',
           options: { limit: 1000 },
         },
-      }
-    ]
-  }
+      },
+    ],
+  },
 };

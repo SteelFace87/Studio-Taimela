@@ -1,9 +1,3 @@
 const copyright = '© Studio Taimela';
 
-
-
-export const footerContent = [
-  copyright,
-
-];
-
+export const footerContent = [copyright];
