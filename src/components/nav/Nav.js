@@ -10,7 +10,7 @@ export default function Nav() {
   );
   const rightNavLinks = <ul>{createLinks(rightLinks)}</ul>;
   return (
-    <div id="please" className={styles.container}>
+    <div id="Nav Container" className={styles.container}>
       <nav className={styles.nav}>
         <section className={styles.leftLinkContainer}>{leftNavLinks}</section>
         <section className={styles.logoContainer}>
