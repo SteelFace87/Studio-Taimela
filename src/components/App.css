@@ -1,5 +1,10 @@
+div{
+  max-width: 1700px;
+  margin: auto;
+}
+
 html body{
-  margin:0;
+  margin:auto;
   color: #FFFFFF;
   box-sizing: border-box;
   background-color: #8CBBBE;

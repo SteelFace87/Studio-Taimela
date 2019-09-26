@@ -13,7 +13,7 @@ import MobileNavHook from './nav/MobileNavHook';
 export default function App() {
   return (
     <Router>
-      <>
+      <div className="container">
         <MobileNavHook />
         <Nav />
         <SplashPage />
@@ -22,7 +22,7 @@ export default function App() {
         <Background />
         <Contact />
         <Footer />
-      </>
+      </div>
     </Router>
   );
 }
