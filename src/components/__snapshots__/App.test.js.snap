@@ -2,13 +2,17 @@
 
 exports[`App component renders App 1`] = `
 <BrowserRouter>
-  <MobileNavHook />
-  <Nav />
-  <SplahPage />
-  <Expertise />
-  <Services />
-  <Background />
-  <Contact />
-  <Footer />
+  <div
+    className="container"
+  >
+    <MobileNavHook />
+    <Nav />
+    <SplahPage />
+    <Expertise />
+    <Services />
+    <Background />
+    <Contact />
+    <Footer />
+  </div>
 </BrowserRouter>
 `;
