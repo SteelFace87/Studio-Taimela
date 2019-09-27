@@ -12,6 +12,9 @@
   padding: 10rem 12vw 0 11vw;
   min-height: calc(100vh - 10rem);
 }
+@media(min-width:1700px){
+  padding: 10rem 203px 0 185px;
+}
 }
 .titles{
   color:#FFD67A;

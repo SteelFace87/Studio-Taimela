@@ -1,20 +1,19 @@
-.nav{
-  margin-top:2rem;
-  display:none;
-  @media (min-width: 750px){
-    display: flex;
-  }
-  height: 4rem;
+.container{
+  width:100%;
   position: fixed;
-  top:50%;
-  left:50%;
-  margin-left:-45%;
-  width:90%;
+  z-index:99;
+  @media (min-width: 750px){
+    display: block;
+  }
+  display:none;
+}
+.nav{
+  display:flex;
+  margin-top:2rem;
+  height: 4rem;
   top:2rem;
   box-sizing: border-box;
-  z-index:99;
   background-color: rgba(0, 0, 0, 0.4);
-
   ul{
     padding:0;
     display:flex;
@@ -31,15 +30,20 @@
  
 }
 
-
 .leftLinkContainer{ 
   width:50%;
   display: flex;
   align-items: center;
-  z-index: 99;
+
   ul{
-    margin-left: auto;
+    margin-left:auto;
   }
+}
+.rightLinkContainer{
+  width:50%;
+  display: flex;
+  align-items: center;
+
 }
 .logoContainer{
   display:flex;
@@ -48,17 +52,7 @@
  img{
   height: 8rem;
   width: 8rem;
-  z-index: 99;
  }
-}
-.rightLinkContainer{
-  width:50%;
-  display: flex;
-  align-items: center;
-  z-index: 99;
-  ul{
-    margin-right: auto;
-  }
 }
 
 
