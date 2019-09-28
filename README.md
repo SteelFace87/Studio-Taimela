@@ -73,6 +73,19 @@ In the future the website will have a section that displays the companies Studio
 <img width="45%" alt="tablet contact page" src="https://github-images-md.s3-us-west-2.amazonaws.com/57F46ECE-4BB7-423A-871E-F71E39EE7A15.png">
 </div>
 
+## Tablet Desktop Shots
+<div display='flex'>
+
+<img width="90%" alt="tablet splash page" src="https://github-images-md.s3-us-west-2.amazonaws.com/293A5AB4-5367-4E48-A4F7-788C59B86123.png">
+
+<img width="90%" alt="expertise page" src="https://github-images-md.s3-us-west-2.amazonaws.com/desktop_expertise_r.png">
+
+<img width="90%" alt="tablet services page" src="https://github-images-md.s3-us-west-2.amazonaws.com/desktop_service_r.png">
+
+<img width="90%" alt="tablet background page" src="https://github-images-md.s3-us-west-2.amazonaws.com/desktop_background_r.png">
+
+<img width="90%" alt="tablet contact page" src="https://github-images-md.s3-us-west-2.amazonaws.com/desktop_contact_r.png">
+</div>
 
 
 
