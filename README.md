@@ -1,29 +1,48 @@
 # STUDIO TAIMELA #
 
-[Live-Site](http://studiotaimela.com "Named link title")
+Create online precense for Studio Taimela, a business owned by Virpi Taimela in Switzerland
 
-### Online Presence for Studio Taimela
+## Live Site
+[Live-Site](http://studiotaimela.com "Named link title")
 
 ## Task
 Collaborate with Studio Taimela to create their business website
 
-## Criteria
-* SEO
+## MVP 
+
+* Splash page
+* Expertise page
+* Services page
+* Background page
+* Contact page
+* Hamburger menu for mobile screens
+
+##  Requirements
+
+* Mobile first responsive design that caters to screens of all sizes
+* Optimize SEO so that website shows up on searches
 * Performance
-* New technology
+* Use new technology
 * Caters to all screen sizes (mobile first)
 * Continuous Integration / Continuous Deployment
+* Clean Code
 
- ## Stack
- * React
- * React Hooks
- * Netflify
+## Stack
+* React
+* React Hooks
+* Netflify
+* ES lint
+* Prettier 
 
- ## Functionality
-The website displays all services provided by Studio Taimela.
+## Functionality
+The website displays all services provided by Studio Taimela, and caters to all mobile devices.  A hamburger menu with animation is required to enhance user experience.
 
-## Design
-The layout for this website was provided by Studio Taimela via wire frames.  To acommodate smaller screens, a hamburger menu was to be added.  In the future the website will have a section that displays the companies Studio Taimela has done work with and will include a CMS.
+## Challenges
+Take supplied wireframes and ideas from client and transform them into a website that she can be proud of.  Provide client with information on implications and limititations in order for her tomake an informed decisions that results in best possible outcome.  
 
-## Additional Notes
-This project uses prettier and ES lint.  For configuration I referred to the following youtube video.  https://www.youtube.com/watch?v=lHAeK8t94as
+## Future Features
+In the future the website will have a section that displays the companies Studio Taimela has done work with and will include a CMS.
+
+## Mobile Screen Shots
+![mobile splash page](https://github-images-md.s3-us-west-2.amazonaws.com/splash+(mobile).png)
+
