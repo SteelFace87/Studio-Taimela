@@ -45,9 +45,9 @@ In the future the website will have a section that displays the companies Studio
 
 ## Mobile Screen Shots
 ![mobile splash page](https://github-images-md.s3-us-west-2.amazonaws.com/splash+(mobile).png)
-![mobile expertise page](s3://github-images-md/page1 (mobile).png)
-![mobile services page](s3://github-images-md/page2 (mobile).png)
-![mobile background page](s3://github-images-md/page3 (mobiile).png)
-![mobile contanct page](s3://github-images-md/page4 (mobile).png)
+![mobile expertise page](https://github-images-md.s3-us-west-2.amazonaws.com/page1+(mobile).png)
+![mobile services page](https://github-images-md.s3-us-west-2.amazonaws.com/page2+(mobile).png)
+![mobile background page](https://github-images-md.s3-us-west-2.amazonaws.com/page3+(mobiile).png)
+![mobile contanct page](https://github-images-md.s3-us-west-2.amazonaws.com/page4+(mobile).png)
 
 
