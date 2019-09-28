@@ -45,4 +45,4 @@ In the future the website will have a section that displays the companies Studio
 
 ## Mobile Screen Shots
 
-<img src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png">
+<img width="30%" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png">
