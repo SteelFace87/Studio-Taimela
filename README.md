@@ -45,4 +45,17 @@ In the future the website will have a section that displays the companies Studio
 
 ## Mobile Screen Shots
 
-<img width="30%" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png">
+<img width="32%" alt="mobile hamburger menu" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png">
+
+<img width="32%" alt="mobile splash page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_splash.png">
+
+<img width="32%" alt="mobile expertise page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_expertise.png">
+
+<img width="32%" alt="mobile services page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_services.png">
+
+<img width="32%" alt="mobile background page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_background.png">
+
+<img width="32%" alt="mobile contact page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_contact.png">
+
+
+
