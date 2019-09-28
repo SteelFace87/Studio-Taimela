@@ -49,5 +49,5 @@ In the future the website will have a section that displays the companies Studio
 ![mobile expertise page](https://github-images-md.s3-us-west-2.amazonaws.com/mobile_expertise.png)
 ![mobile services page](https://github-images-md.s3-us-west-2.amazonaws.com/mobile_services.png)
 ![mobile background page](https://github-images-md.s3-us-west-2.amazonaws.com/mobile_background.png)
-![mobile contanct page](https://github-images-md.s3-us-west-2.amazonaws.com/mobile_contact.png | width:30% height:30%)
+![mobile contanct page](https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png)
 
