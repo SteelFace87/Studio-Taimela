@@ -45,6 +45,7 @@ In the future the website will have a section that displays the companies Studio
 
 ## Mobile Screen Shots
 
+<div display='flex'>
 <img width="32%" alt="mobile hamburger menu" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png">
 
 <img width="32%" alt="mobile splash page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_splash.png">
@@ -56,6 +57,8 @@ In the future the website will have a section that displays the companies Studio
 <img width="32%" alt="mobile background page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_background.png">
 
 <img width="32%" alt="mobile contact page" src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_contact.png">
+</div>
+
 
 
 
