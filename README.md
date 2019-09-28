@@ -73,10 +73,10 @@ In the future the website will have a section that displays the companies Studio
 <img width="45%" alt="tablet contact page" src="https://github-images-md.s3-us-west-2.amazonaws.com/57F46ECE-4BB7-423A-871E-F71E39EE7A15.png">
 </div>
 
-## Tablet Desktop Shots
+## Desktop Screen Shots
 <div display='flex'>
 
-<img width="90%" alt="tablet splash page" src="https://github-images-md.s3-us-west-2.amazonaws.com/293A5AB4-5367-4E48-A4F7-788C59B86123.png">
+<img width="90%" alt="tablet splash page" src="https://github-images-md.s3-us-west-2.amazonaws.com/desktop_splash_r.png">
 
 <img width="90%" alt="expertise page" src="https://github-images-md.s3-us-west-2.amazonaws.com/desktop_expertise_r.png">
 
@@ -87,5 +87,7 @@ In the future the website will have a section that displays the companies Studio
 <img width="90%" alt="tablet contact page" src="https://github-images-md.s3-us-west-2.amazonaws.com/desktop_contact_r.png">
 </div>
 
-
-
+## Client Testimonial
+"
+Olli developed Studio Taimela’s website perfectly according to design for all screen resolutions. His enthusiasm towards technology is apparent in his resourcefulness to execute without compromise. Olli is easy to talk with and can quickly grasp an understanding of the business objectives behind a website, plus his continuously dedication to success made working with him a wonderful experience.
+"
