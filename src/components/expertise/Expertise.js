@@ -49,7 +49,10 @@ export default function Expertise() {
 
   return (
     <>
-      <section className={[styles.expertisePage, 'expertisePage'].join(' ')}>
+      <section
+        id="Expertise"
+        className={[styles.expertisePage, 'expertisePage'].join(' ')}
+      >
         <Title title="Expertise" />
         <ul className={styles.ul}>{expertiseList}</ul>
       </section>
