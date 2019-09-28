@@ -44,5 +44,5 @@ Take supplied wireframes and ideas from client and transform them into a website
 In the future the website will have a section that displays the companies Studio Taimela has done work with and will include a CMS.
 
 ## Mobile Screen Shots
-![mobile splash page](https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png)
 
+<img src="https://github-images-md.s3-us-west-2.amazonaws.com/mobile_hamburger.png">
