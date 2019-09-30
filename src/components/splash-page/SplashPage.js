@@ -1,12 +1,10 @@
 import React from 'react';
 import styles from './SplashPage.css';
 import ContentDevider from '../content-devider/ContentDevider';
-
-import { bullets } from '../../text/splashPage';
+import { lineMapper } from '../../helper-functions/lineMapper';
+import { headingLines, introLines } from '../../text/splashPage';
 
 export default function SplahPage() {
-  const listItems = bullets.map((bullet, i) => <li key={i}>{bullet}</li>);
-
   return (
     <>
       <section
@@ -14,23 +12,11 @@ export default function SplahPage() {
         className={[styles.splashPage, 'splashPage'].join(' ')}
       >
         <section className={styles.text}>
-          <ul className={styles.titles}>{listItems}</ul>
+          <ul className={styles.heading}>{lineMapper(headingLines)}</ul>
           <ul className={[styles.about, 'about'].join(' ')}>
-            <li>
-              <p>I help tech companies with</p>
-            </li>
-            <li>
-              <p>complex solutions to bring</p>
-            </li>
-            <li>
-              <p>out their best</p>
-            </li>
-            <li>
-              <p>Virpi Taimela</p>
-            </li>
+            {lineMapper(introLines, 'p')}
           </ul>
         </section>
-
         <section className={styles.img} />
       </section>
       <ContentDevider />
