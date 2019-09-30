@@ -2,7 +2,7 @@
 
 exports[`App component renders App 1`] = `
 <BrowserRouter>
-  <div
+  <section
     className="container"
   >
     <MobileNavHook />
@@ -13,6 +13,6 @@ exports[`App component renders App 1`] = `
     <Background />
     <Contact />
     <Footer />
-  </div>
+  </section>
 </BrowserRouter>
 `;
