@@ -3,7 +3,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import styles from './Background.css';
 import { education } from '../../text/background';
 import Title from '../title/Title';
-import MobileBackground from './MobileBackground';
+import Skills from './Skills';
 import ContentDevider from '../content-devider/ContentDevider';
 
 export default function Background() {
@@ -23,7 +23,7 @@ export default function Background() {
               </ul>
             </section>
             <section className={styles.skills}>
-              <MobileBackground />
+              <Skills />
             </section>
           </section>
         </section>

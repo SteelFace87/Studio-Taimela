@@ -3,44 +3,44 @@ export const education = {
   school: 'Solvay Brussels Schoool, Belgium',
 };
 
-export const certificates = {
-  title: 'Certificates',
-  skills: [
-    [
-      {
-        style: 'bold',
-        content: ['TOGAF'],
-      },
-      {
-        content: ['Foundation'],
-      },
-    ],
-    [
-      {
-        style: 'bold',
-        content: ['ITIL'],
-      },
-      {
-        content: ['Certified'],
-      },
-    ],
-    [
-      {
-        style: 'bold',
-        content: ['PRINCE 2'],
-      },
-      {
-        content: ['Foundation'],
-      },
-    ],
-    [
-      {
-        content: ['Trained in'],
-      },
-      {
-        style: 'bold',
-        content: ['Balanced Scoreboard'],
-      },
-    ],
-  ],
-};
+export const englishSkill = 'English Native, born in the USA';
+export const finnishSkill = 'Finnish Mother tongue';
+export const frenchSkill = 'French Conversational (B2)';
+
+export const languageSkills = [
+  {
+    text: 'English Native, born in the USA',
+    bold: [0],
+  },
+  {
+    text: 'Finnish Mother tongue',
+    bold: [0],
+  },
+  {
+    text: 'French Conversational (B2)',
+    bold: [0],
+  },
+  {
+    text: 'German Conversational (B1)',
+    bold: [0],
+  },
+];
+
+export const certificateSkills = [
+  {
+    text: 'TOGAF Foundation',
+    bold: [0],
+  },
+  {
+    text: 'ITIL Certified',
+    bold: [0],
+  },
+  {
+    text: 'Prince 2 Foundation',
+    bold: [0, 1],
+  },
+  {
+    text: 'Trained in Balanced Scorebard',
+    bold: [2, 3],
+  },
+];
