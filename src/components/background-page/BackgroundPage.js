@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
-import styles from './Background.css';
+import styles from './BackgroundPage.css';
 import { education } from '../../text/background';
 import Title from '../title/Title';
 import Skills from './Skills';

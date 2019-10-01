@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MakeSkillList comonent renders a skill list 1`] = `
+Array [
+  <ul
+    key="0"
+  >
+    <MakeSkill
+      skill={
+        Object {
+          "bold": Array [
+            0,
+          ],
+          "text": "English Native, born in the USA",
+        }
+      }
+    />
+  </ul>,
+  <ul
+    key="1"
+  >
+    <MakeSkill
+      skill={
+        Object {
+          "bold": Array [
+            0,
+          ],
+          "text": "Finnish Mother tongue",
+        }
+      }
+    />
+  </ul>,
+  <ul
+    key="2"
+  >
+    <MakeSkill
+      skill={
+        Object {
+          "bold": Array [
+            0,
+          ],
+          "text": "French Conversational (B2)",
+        }
+      }
+    />
+  </ul>,
+  <ul
+    key="3"
+  >
+    <MakeSkill
+      skill={
+        Object {
+          "bold": Array [
+            0,
+          ],
+          "text": "German Conversational (B1)",
+        }
+      }
+    />
+  </ul>,
+]
+`;

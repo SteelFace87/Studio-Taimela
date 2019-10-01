@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import SplashPage from '../splash-page/SplashPage';
 import Nav from '../nav/Nav';
 import Expertise from '../expertise/Expertise';
-import Background from '../background/Background';
+import BackgroundPage from '../background-page/BackgroundPage';
 import ContactPage from '../contact-page/ContactPage';
 import Footer from '../footer/Footer';
 import Services from '../services/Services';
@@ -19,7 +19,7 @@ export default function App() {
         <SplashPage />
         <Expertise />
         <Services />
-        <Background />
+        <BackgroundPage />
         <ContactPage />
         <Footer />
       </section>

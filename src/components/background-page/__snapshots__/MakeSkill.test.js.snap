@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MakeSkill component renders a skill 1`] = `
+Array [
+  <li
+    className="check"
+  >
+    ✓
+  </li>,
+  <li
+    key="0"
+  >
+    <h4>
+      English
+    </h4>
+  </li>,
+  <li
+    key="1"
+  >
+    <p>
+      Native,
+    </p>
+  </li>,
+  <li
+    key="2"
+  >
+    <p>
+      born
+    </p>
+  </li>,
+  <li
+    key="3"
+  >
+    <p>
+      in
+    </p>
+  </li>,
+  <li
+    key="4"
+  >
+    <p>
+      the
+    </p>
+  </li>,
+  <li
+    key="5"
+  >
+    <p>
+      USA
+    </p>
+  </li>,
+]
+`;
