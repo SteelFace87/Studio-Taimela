@@ -5,7 +5,9 @@ import styles from './MobileBackground.css';
 export function makeSkillList(skills) {
   const ul = skills.map((skill, i) => (
     <ul key={i}>
-      <li className={styles.check}>✓</li>
+      <li key="check" className={styles.check}>
+        ✓
+      </li>
       {addBold(skill.text, skill.bold)}
     </ul>
   ));

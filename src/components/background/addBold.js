@@ -18,5 +18,6 @@ export function addBold(string, index) {
       </li>
     );
   });
+
   return withBoldArray;
 }
