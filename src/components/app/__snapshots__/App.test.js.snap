@@ -11,7 +11,7 @@ exports[`App component renders App 1`] = `
     <Expertise />
     <Services />
     <Background />
-    <Contact />
+    <ContactPage />
     <Footer />
   </section>
 </BrowserRouter>

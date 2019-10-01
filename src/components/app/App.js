@@ -5,7 +5,7 @@ import SplashPage from '../splash-page/SplashPage';
 import Nav from '../nav/Nav';
 import Expertise from '../expertise/Expertise';
 import Background from '../background/Background';
-import Contact from '../contact/Contact';
+import ContactPage from '../contact-page/ContactPage';
 import Footer from '../footer/Footer';
 import Services from '../services/Services';
 import MobileNavHook from '../nav/MobileNavHook';
@@ -20,7 +20,7 @@ export default function App() {
         <Expertise />
         <Services />
         <Background />
-        <Contact />
+        <ContactPage />
         <Footer />
       </section>
     </Router>
