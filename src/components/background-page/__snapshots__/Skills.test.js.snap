@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills component renders all skills 1`] = `
+<section
+  className="skillbackground"
+>
+  <section
+    className="section"
+  >
+    <h3>
+      Languages
+    </h3>
+    <MakeSkillList
+      skills={
+        Array [
+          Object {
+            "bold": Array [
+              0,
+            ],
+            "text": "English Native, born in the USA",
+          },
+          Object {
+            "bold": Array [
+              0,
+            ],
+            "text": "Finnish Mother tongue",
+          },
+          Object {
+            "bold": Array [
+              0,
+            ],
+            "text": "French Conversational (B2)",
+          },
+          Object {
+            "bold": Array [
+              0,
+            ],
+            "text": "German Conversational (B1)",
+          },
+        ]
+      }
+    />
+  </section>
+  <section
+    className="section"
+  >
+    <h3>
+      Certificates
+    </h3>
+    <MakeSkillList
+      skills={
+        Array [
+          Object {
+            "bold": Array [
+              0,
+            ],
+            "text": "TOGAF Foundation",
+          },
+          Object {
+            "bold": Array [
+              0,
+            ],
+            "text": "ITIL Certified",
+          },
+          Object {
+            "bold": Array [
+              0,
+              1,
+            ],
+            "text": "Prince 2 Foundation",
+          },
+          Object {
+            "bold": Array [
+              2,
+              3,
+            ],
+            "text": "Trained in Balanced Scorebard",
+          },
+        ]
+      }
+    />
+  </section>
+</section>
+`;
