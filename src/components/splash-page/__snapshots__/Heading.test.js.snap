@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading component renders ContactPage 1`] = `
+<ul
+  className="heading"
+>
+  <li
+    key="0"
+  >
+    <p>
+      STRATEGIC MARKETER.
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <p>
+      CREATIVE THINKER.
+    </p>
+  </li>
+  <li
+    key="2"
+  >
+    <p>
+      TECH ENTHUSIAST.
+    </p>
+  </li>
+</ul>
+`;
