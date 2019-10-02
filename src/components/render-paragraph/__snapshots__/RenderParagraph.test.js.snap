@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RenderParagraph component renders a paragraph from a string 1`] = `
+<p
+  className="paragraph"
+>
+  render me please
+</p>
+`;

@@ -18,5 +18,10 @@ export default function MakeSkill({ skill }) {
       </li>
     );
   });
-  return [<li className={styles.check}>✓</li>, ...skillWithStyle];
+  return [
+    <li key="check" className={styles.check}>
+      ✓
+    </li>,
+    ...skillWithStyle,
+  ];
 }
