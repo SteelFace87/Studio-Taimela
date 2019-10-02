@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkedInButton renders LinkedInButton 1`] = `
+<section
+  className="social"
+>
+  <p>
+    Find my detailed work experience on LinkedIn
+  </p>
+  <a
+    alt="Linked In"
+    aria-label="Linked In"
+    href="https://www.linkedin.com/in/virpinieminen/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <FaLinkedin
+      size={42}
+    />
+  </a>
+</section>
+`;

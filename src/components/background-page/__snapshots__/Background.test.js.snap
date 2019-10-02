@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Background component renders Background 1`] = `
+<section
+  className="background"
+>
+  <Title
+    title="background"
+  />
+  <section
+    className="backgroundText"
+  >
+    <section>
+      <ul
+        className="ulEducation"
+      >
+        <li>
+          Master's degree in Management Science
+        </li>
+        <li>
+          Solvay Brussels Schoool, Belgium
+        </li>
+      </ul>
+    </section>
+    <section
+      className="skills"
+    >
+      <Skills />
+    </section>
+  </section>
+</section>
+`;
