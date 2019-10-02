@@ -6,7 +6,6 @@ import ServicesList from './ServicesList';
 import RenderParagraph from '../render-paragraph/RenderPagragraph';
 import { virpiSummary } from '../../text/services';
 
-
 export default function Services() {
   return (
     <>

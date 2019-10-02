@@ -5,7 +5,7 @@ import logo from '../../assets/images/logo.png';
 import createLinks from './createLinks';
 import { allLinks } from '../../text/nav';
 
-export default function MobileNavHook() {
+export default function MobileNav() {
   const [navState, setNavState] = useState({
     display: false,
   });

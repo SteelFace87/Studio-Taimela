@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DesktopNav Component renders desktop nav 1`] = `
+<div
+  className="container"
+  id="Nav Container"
+>
+  <nav
+    className="nav"
+  >
+    <section
+      className="leftLinkContainer"
+    >
+      <ul
+        className="hover"
+      >
+        <li
+          key="0"
+        >
+          <HashLink
+            to="#Expertise"
+          >
+            Expertise
+          </HashLink>
+        </li>
+        <li
+          key="1"
+        >
+          <HashLink
+            to="#Services"
+          >
+            Services
+          </HashLink>
+        </li>
+      </ul>
+    </section>
+    <section
+      className="logoContainer"
+    >
+      <img
+        alt="logo"
+        src="/path/image"
+      />
+    </section>
+    <section
+      className="rightLinkContainer"
+    >
+      <ul>
+        <li
+          key="0"
+        >
+          <HashLink
+            to="#Background"
+          >
+            Background
+          </HashLink>
+        </li>
+        <li
+          key="1"
+        >
+          <HashLink
+            to="#Contact"
+          >
+            Contact
+          </HashLink>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
+`;

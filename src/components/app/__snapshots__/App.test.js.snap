@@ -5,7 +5,6 @@ exports[`App component renders App 1`] = `
   <section
     className="container"
   >
-    <MobileNavHook />
     <Nav />
     <SplahPage />
     <ExpertisePage />
