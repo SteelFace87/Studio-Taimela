@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutVirpi component renders a summary of Virpi 1`] = `
+<p
+  className="aboutMe"
+>
+  I especially enjoy working with innovative companies,
+smart cities and creative solutions that improve the quality of life.
+</p>
+`;

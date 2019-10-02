@@ -15,69 +15,7 @@
     max-height: 1200px;
   }
 }
-
-.servicesList{
-  display:flex;
-  flex-direction: column;
-  margin:0;
-  padding:0;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
- 
-  width:100%;
-  h2{
-      font-weight: bold;
-      margin:0;
-      font-size:1rem;
-    }
-    p{
-      margin:0;
-    }
-    li{
-      height: 150px;
-      width: 150px;
-      margin: 36px;
-      padding:2rem;
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;   
-      background-color: #E6E8EE;
-      border-radius: 100%;
-    }
-    @media(min-width: 1100px){
-      margin:auto;
-      li:first-child{
-        margin-left:auto;
-      }
-      li:last-child{
-        margin-right:auto;
-      }
-      flex-wrap:wrap;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      
-    
-    }
-    
-}
 .devider{
   font-size:2rem;
   margin:0;
-}
-.aboutMe{
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin:1rem;
-  text-align:center;
-  @media (min-width: 750px){
-   width:60%;
-  }
-  @media(min-width:1100px){
-    width: 800px;
-    margin-left:0;
-    margin-right:0;
-  }
 }

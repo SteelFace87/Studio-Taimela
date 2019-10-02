@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesList component renders services list 1`] = `
+<ul
+  className="servicesList"
+>
+  <li
+    className="li"
+    key="0"
+  >
+    <h2>
+      Content Strategy
+    </h2>
+    <p
+      className="devider"
+    >
+      ~
+    </p>
+    <p>
+      A plan of meaningful
+    content for each step
+    of the customer
+    journey
+    </p>
+  </li>
+  <li
+    className="li"
+    key="1"
+  >
+    <h2>
+      Content Creation
+    </h2>
+    <p
+      className="devider"
+    >
+      ~
+    </p>
+    <p>
+      Get noticed by your
+    target audience with
+    success stories,
+    articles etc.
+    </p>
+  </li>
+  <li
+    className="li"
+    key="2"
+  >
+    <h2>
+      Presales Support
+    </h2>
+    <p
+      className="devider"
+    >
+      ~
+    </p>
+    <p>
+      
+    Presentations and
+    demos that won’t
+    leave the audience
+    cold
+    
+    </p>
+  </li>
+</ul>
+`;
