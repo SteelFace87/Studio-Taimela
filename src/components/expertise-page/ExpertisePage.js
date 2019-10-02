@@ -1,11 +1,10 @@
 import React from 'react';
-import { makeExpertiseList } from './makeExpertiseList';
-import styles from './Expertise.css';
+import ExpertiseList from './ExpertiseList';
+import styles from './ExpertisePage.css';
 import Title from '../title/Title';
 import ContentDevider from '../content-devider/ContentDevider';
-import { expertise } from '../../text/expertise';
 
-export default function Expertise() {
+export default function ExpertisePage() {
   return (
     <>
       <section
@@ -13,7 +12,7 @@ export default function Expertise() {
         className={[styles.expertisePage, 'expertisePage'].join(' ')}
       >
         <Title title="Expertise" />
-        <ul className={styles.ul}>{makeExpertiseList(expertise)}</ul>
+        <ExpertiseList />
       </section>
       <ContentDevider />
     </>

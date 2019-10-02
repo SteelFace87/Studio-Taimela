@@ -3,11 +3,11 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import SplashPage from '../splash-page/SplashPage';
 import Nav from '../nav/Nav';
-import Expertise from '../expertise/Expertise';
+import ExpertisePage from '../expertise-page/ExpertisePage';
 import BackgroundPage from '../background-page/BackgroundPage';
 import ContactPage from '../contact-page/ContactPage';
 import Footer from '../footer/Footer';
-import ServicesPage from '../services/ServicesPage';
+import ServicesPage from '../services-page/ServicesPage';
 import MobileNavHook from '../nav/MobileNavHook';
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
         <MobileNavHook />
         <Nav />
         <SplashPage />
-        <Expertise />
+        <ExpertisePage />
         <ServicesPage />
         <BackgroundPage />
         <ContactPage />
