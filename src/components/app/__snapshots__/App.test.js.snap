@@ -10,7 +10,7 @@ exports[`App component renders App 1`] = `
     <SplahPage />
     <Expertise />
     <Services />
-    <Background />
+    <BackgroundPage />
     <ContactPage />
     <Footer />
   </section>
