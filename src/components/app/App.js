@@ -7,7 +7,7 @@ import Expertise from '../expertise/Expertise';
 import BackgroundPage from '../background-page/BackgroundPage';
 import ContactPage from '../contact-page/ContactPage';
 import Footer from '../footer/Footer';
-import ServicesPage from '../services/ServicesPage';
+import ServicesPage from '../services-page/ServicesPage';
 import MobileNavHook from '../nav/MobileNavHook';
 
 export default function App() {

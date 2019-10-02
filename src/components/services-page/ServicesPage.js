@@ -3,7 +3,8 @@ import styles from './Services.css';
 import Title from '../title/Title';
 import ContentDevider from '../content-devider/ContentDevider';
 import ServicesList from './ServicesList';
-import AboutVirpi from './AboutVirpi';
+import RenderParagraph from '../render-paragraph/RenderPagragraph';
+import { virpiSummary } from '../../text/services';
 
 export default function Services() {
   return (
@@ -14,7 +15,7 @@ export default function Services() {
       >
         <Title title="services" />
         <ServicesList />
-        <AboutVirpi />
+        <RenderParagraph content={virpiSummary} />
       </main>
       <ContentDevider />
     </>
