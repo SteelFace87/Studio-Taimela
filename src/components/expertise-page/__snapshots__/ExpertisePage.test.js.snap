@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpertisePage component renders Expertise 1`] = `
+<Fragment>
+  <section
+    className="expertisePage expertisePage"
+    id="Expertise"
+  >
+    <Title
+      title="Expertise"
+    />
+    <ExpertiseList />
+  </section>
+  <SubSection />
+</Fragment>
+`;

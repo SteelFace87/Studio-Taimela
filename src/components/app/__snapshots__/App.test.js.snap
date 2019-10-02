@@ -8,7 +8,7 @@ exports[`App component renders App 1`] = `
     <MobileNavHook />
     <Nav />
     <SplahPage />
-    <Expertise />
+    <ExpertisePage />
     <Services />
     <BackgroundPage />
     <ContactPage />

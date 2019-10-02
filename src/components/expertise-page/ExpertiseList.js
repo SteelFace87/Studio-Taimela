@@ -1,7 +1,8 @@
 import React from 'react';
-import styles from './Expertise.css';
+import styles from './ExpertiseList.css';
+import { expertise } from '../../text/expertise';
 
-export function makeExpertiseList(expertise) {
+export default function ExpertiseList() {
   const expertiseList = expertise.map((expertiseItem, i) => (
     <li key={i}>
       <section className={styles.li}>
@@ -14,5 +15,5 @@ export function makeExpertiseList(expertise) {
       </section>
     </li>
   ));
-  return expertiseList;
+  return <ul className={styles.ul}>{expertiseList}</ul>;
 }
