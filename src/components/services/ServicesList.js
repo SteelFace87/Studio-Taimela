@@ -1,7 +1,8 @@
 import React from 'react';
-import styles from './Services.css';
+import styles from './ServicesList.css';
+import { services } from '../../text/services';
 
-export function makeServicesList(services) {
+export default function ServicesList() {
   const servicesList = services.map((content, i) => (
     <li className={styles.li} key={i}>
       <>
@@ -11,6 +12,5 @@ export function makeServicesList(services) {
       </>
     </li>
   ));
-
-  return servicesList;
+  return <ul className={styles.servicesList}>{servicesList}</ul>;
 }

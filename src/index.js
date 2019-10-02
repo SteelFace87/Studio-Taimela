@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import WebFont from 'webfontloader';
 import App from './components/app/App';
 
+
 WebFont.load({
   google: {
     families: ['Roboto:300,700'],

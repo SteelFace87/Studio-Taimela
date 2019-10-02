@@ -7,7 +7,7 @@ import Expertise from '../expertise/Expertise';
 import BackgroundPage from '../background-page/BackgroundPage';
 import ContactPage from '../contact-page/ContactPage';
 import Footer from '../footer/Footer';
-import Services from '../services/Services';
+import ServicesPage from '../services/ServicesPage';
 import MobileNavHook from '../nav/MobileNavHook';
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
         <Nav />
         <SplashPage />
         <Expertise />
-        <Services />
+        <ServicesPage />
         <BackgroundPage />
         <ContactPage />
         <Footer />

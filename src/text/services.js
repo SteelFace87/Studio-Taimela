@@ -24,5 +24,5 @@ export const services = [
   },
 ];
 
-export const aboutMe = `I especially enjoy working with innovative companies,
+export const virpiSummary = `I especially enjoy working with innovative companies,
 smart cities and creative solutions that improve the quality of life.`;
