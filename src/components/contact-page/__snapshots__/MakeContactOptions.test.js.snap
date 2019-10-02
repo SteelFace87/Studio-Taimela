@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ContactOption component renders a list of contact options from an array 1`] = `
-Array [
+<ul
+  className="ul"
+>
   <li
     className="li"
     key="0"
@@ -9,12 +11,14 @@ Array [
     <p
       className="logo"
     >
-      fake icon
+      <FaEnvelopeOpenText
+        size={32}
+      />
     </p>
     <p>
       Virpi@studiotaimela.com
     </p>
-  </li>,
+  </li>
   <li
     className="li"
     key="1"
@@ -22,7 +26,9 @@ Array [
     <p
       className="logo"
     >
-      fake icon2
+      <FaMapMarked
+        size={32}
+      />
     </p>
     <p>
       <span>
@@ -32,7 +38,7 @@ Array [
         Switzerland
       </span>
     </p>
-  </li>,
+  </li>
   <li
     className="li"
     key="2"
@@ -40,7 +46,9 @@ Array [
     <p
       className="logo"
     >
-      fake icon3
+      <FaPhone
+        size={32}
+      />
     </p>
     <p>
       <span>
@@ -50,6 +58,6 @@ Array [
          +358 40 410 6428
       </span>
     </p>
-  </li>,
-]
+  </li>
+</ul>
 `;

@@ -4,6 +4,7 @@ exports[`MakeSkill component renders a skill 1`] = `
 Array [
   <li
     className="check"
+    key="check"
   >
     ✓
   </li>,

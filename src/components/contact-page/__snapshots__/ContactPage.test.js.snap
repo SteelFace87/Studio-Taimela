@@ -8,54 +8,11 @@ exports[`ContactPage component renders ContactPage 1`] = `
   <Title
     title="get in contact"
   />
-  <ul
-    className="ul"
-  >
-    <MakeContactOptions
-      contactOptions={
-        Array [
-          Object {
-            "icon": <FaEnvelopeOpenText
-              size={32}
-            />,
-            "text": "Virpi@studiotaimela.com",
-          },
-          Object {
-            "icon": <FaMapMarked
-              size={32}
-            />,
-            "text": <React.Fragment>
-              <span>
-                Zürich
-              </span>
-              <span>
-                Switzerland
-              </span>
-            </React.Fragment>,
-          },
-          Object {
-            "icon": <FaPhone
-              size={32}
-            />,
-            "text": <React.Fragment>
-              <span>
-                +41 77 979 9734
-              </span>
-              <span>
-                 +358 40 410 6428
-              </span>
-            </React.Fragment>,
-          },
-        ]
-      }
-    />
-  </ul>
-  <p
-    className="paragraph"
-  >
-    When I’m not at my desk, you can find me traveling or enjoying the outdoors. I’m also an
+  <ContactOptions />
+  <RenderParagraph
+    content="When I’m not at my desk, you can find me traveling or enjoying the outdoors. I’m also an
 avid painter, a mother and a lifelong learner. I love discovering cultures, places and people,
-and I’ve lived in five different countries with Zürich, Switzerland, my current home. 
-  </p>
+and I’ve lived in five different countries with Zürich, Switzerland, my current home. "
+  />
 </section>
 `;
