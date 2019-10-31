@@ -1,6 +1,9 @@
 .intro{
 
   margin-top:1rem;
+  font-style:italic;
+  font-weight:500;
+
   @media(min-width: 420px){
     font-size:1.4rem;
   }
