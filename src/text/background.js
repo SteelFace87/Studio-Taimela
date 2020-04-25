@@ -40,7 +40,7 @@ export const certificateSkills = [
     bold: [0, 1],
   },
   {
-    text: 'Trained in Balanced Scorebard',
+    text: 'Trained in Balanced Scorecard',
     bold: [2, 3],
   },
 ];
