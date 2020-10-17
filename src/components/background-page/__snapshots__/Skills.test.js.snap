@@ -74,7 +74,7 @@ exports[`Skills component renders all skills 1`] = `
               2,
               3,
             ],
-            "text": "Trained in Balanced Scorebard",
+            "text": "Trained in Balanced Scorecard",
           },
         ]
       }
