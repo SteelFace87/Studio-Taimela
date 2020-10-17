@@ -1,6 +1,6 @@
 /* eslint-disable global-require */
 const HtmlPlugin = require('html-webpack-plugin');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+// const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 // eslint-disable-next-line
@@ -15,7 +15,7 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [
-    new FaviconsWebpackPlugin('./src/assets/images/favicon.png'),
+    // new FaviconsWebpackPlugin('./src/assets/images/favicon.png'),
     new HtmlPlugin({ template: './src/index.html' }),
     new CleanWebpackPlugin(),
   ],
