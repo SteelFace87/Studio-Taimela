@@ -1,6 +1,6 @@
 export const education = {
   degree: "Master's degree in Management Science",
-  school: 'Solvay Brussels Schoool, Belgium',
+  school: 'Solvay Brussels School, Belgium',
 };
 
 export const englishSkill = 'English Native, born in the USA';
